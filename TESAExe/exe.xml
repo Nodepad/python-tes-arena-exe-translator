@@ -1,0 +1,2187 @@
+<exe version="1.6">
+    <segment absolute_offset="00003D40" id="0" length="0000FF54" type="code" />
+    <segment absolute_offset="00013C94" id="1" length="000101AC" type="code" />
+    <segment absolute_offset="00023E40" id="2" length="00000711" type="code" />
+    <segment absolute_offset="00024551" id="3" length="00000314" type="code" />
+    <segment absolute_offset="00024865" id="4" length="00000686" type="code" />
+    <segment absolute_offset="00024EEB" id="5" length="00001195" type="code" />
+    <segment absolute_offset="00026080" id="6" length="00000371" type="code" />
+    <segment absolute_offset="000263F1" id="7" length="0000037F" type="code" />
+    <segment absolute_offset="00026770" id="8" length="00000081" type="code" />
+    <segment absolute_offset="000267F1" id="9" length="00000C77" type="code" />
+    <segment absolute_offset="00027468" id="10" length="00000483" type="code" />
+    <segment absolute_offset="000278EB" id="11" length="0000082F" type="code" />
+    <segment absolute_offset="0002811A" id="12" length="00000331" type="code" />
+    <segment absolute_offset="0002844B" id="13" length="000007D2" type="code" />
+    <segment absolute_offset="00028C1D" id="14" length="0000070C" type="code" />
+    <segment absolute_offset="00029329" id="15" length="00000D69" type="code" />
+    <segment absolute_offset="0002A092" id="16" length="0000014E" type="code" />
+    <segment absolute_offset="0002A1E0" id="17" length="00000400" type="code" />
+    <segment absolute_offset="0002A5E0" id="18" length="00000DB0" type="code" />
+    <segment absolute_offset="0002B390" id="19" length="0000029B" type="code" />
+    <segment absolute_offset="0002B62B" id="20" length="00000A28" type="code" />
+    <segment absolute_offset="0002C053" id="21" length="00000D0D" type="code" />
+    <segment absolute_offset="0002CD60" id="22" length="00000983" type="code" />
+    <segment absolute_offset="0002D6E3" id="23" length="00001A48" type="code" />
+    <segment absolute_offset="0002F12B" id="24" length="00000C4A" type="code" />
+    <segment absolute_offset="0002FD75" id="25" length="000011AB" type="code" />
+    <segment absolute_offset="00030F20" id="26" length="0000069A" type="code" />
+    <segment absolute_offset="000315BA" id="27" length="000004EB" type="code" />
+    <segment absolute_offset="00031AA5" id="28" length="00000551" type="code" />
+    <segment absolute_offset="00031FF6" id="29" length="0000208F" type="code" />
+    <segment absolute_offset="00034085" id="30" length="00000F3C" type="code" />
+    <segment absolute_offset="00034FC1" id="31" length="000012DF" type="code" />
+    <segment absolute_offset="000362A0" id="32" length="00007930" type="data">
+        <block address="32.00003520" id="1000" length="053C" />
+        <block address="32.00003BEB" id="1001" length="003A" />
+        <block address="32.00003CB6" id="1002" length="0402" />
+        <block address="32.0000465D" id="1003" length="0151" />
+        <block address="32.0000481A" id="1004" length="044B" />
+        <block address="32.00004F05" id="1005" length="03A7" />
+        <block address="32.00005A24" id="1006" length="0149" />
+        <block address="32.00006CC3" id="1007" length="00BE" />
+        <block address="32.000072F0" id="1008" length="000B" />
+        <block address="32.0000730F" id="1009" length="0078" />
+        <block address="32.00007388" id="1010" length="02FE" />
+        <string address="32.00003A43" binary="false" id="1012">
+            <external_pointer>1.00002A83</external_pointer>
+            <content>Which dost thou choose?\r\x00</content>
+        </string>
+        <string address="32.000038D4" binary="false" id="1013">
+            <external_pointer>1.00002741</external_pointer>
+            <content>intelligent and willful\x00strong and intelligent\x00quick and intelligent\x00intelligent and agile\x00intelligent and willful\x00agile and intelligent\x00intelligent and personable\x00agile and quick\x00strong and intelligent\x00agile and quick\x00agile and intelligent\x00strong and agile\x00agile and hardy\x00strong and agile\x00strong and intelligent\x00strong and hardy\x00strong and hardy\x00strong and willful\x00</content>
+        </string>
+        <string address="32.00003824" binary="false" id="1014">
+            <external_pointer>1.0000297E</external_pointer>
+            <content>Thou wilt now choose thy appearance.\rThy mien canst be altered by clicking thy face.\rWhen thou art finished, select 'Done' to enter\rthe world of Tamriel, home of the Arena...\r\x00</content>
+        </string>
+        <string address="32.000037C5" binary="false" id="1015">
+            <external_pointer>1.0000291A</external_pointer>
+            <content>Distribute thy points as needed,\rkeeping in mind the recommendations \rfor thy chosen class...\r\x00</content>
+        </string>
+        <string address="32.00003780" binary="false" id="1016">
+            <external_pointer>1.0000277B</external_pointer>
+            <content>Go ye now in peace.\rLet thy fate be written\rin the Elder Scrolls...\r\x00</content>
+        </string>
+        <string address="32.00003742" binary="false" id="1017">
+            <external_pointer>1.00002756</external_pointer>
+            <content>Thy body and mind must be\r%s\rif thou art to succeed\ras a %s.\r\x00</content>
+        </string>
+        <string address="32.000036EC" binary="false" id="1018">
+            <external_pointer>1.000026E1</external_pointer>
+            <content>Then thou wilt be known as the %s\r%s, who wouldst call %s,\rland of the %s, his home.\r\x00</content>
+        </string>
+        <string address="32.0000369F" binary="false" id="1019">
+            <external_pointer>1.00002669</external_pointer>
+            <content>Thou hast chosen %s,\rland of the %s.\rWouldst thou accept this\ras thy home? \r\x00</content>
+        </string>
+        <string address="32.00003651" binary="false" id="1020">
+            <external_pointer>1.000023DF</external_pointer>
+            <content>Thou wouldst survive\rlongest as a %s.\rWilt thou accept this\ras thy destiny? \r\x00</content>
+        </string>
+        <string address="32.0000362A" binary="false" id="1021">
+            <external_pointer>1.000025F9</external_pointer>
+            <content>From where dost thou hail,\r%s\rthe\r%s?\r\x00</content>
+        </string>
+        <string address="32.00003614" binary="false" id="1022">
+            <external_pointer>1.0000253F</external_pointer>
+            <content>Choose thy gender...\r\x00</content>
+        </string>
+        <string address="32.000035F8" binary="false" id="1023">
+            <external_pointer>1.000024F8</external_pointer>
+            <content>What will be thy name, %s?\r\x00</content>
+        </string>
+        <string address="32.00003547" binary="false" id="1024">
+            <external_pointer>1.000023BD</external_pointer>
+            <content>10 questions shall be asked that will\rdetermine the path of your destiny.\rThe scroll bars roll the parchment up\ror down. Use the 'A', 'B', or 'C' keys\rto answer the questions.\r\x00</content>
+        </string>
+        <string address="32.00003520" binary="false" id="1025">
+            <external_pointer>1.0000238F</external_pointer>
+            <content>How do you wish\rto select your class?\r\x00</content>
+        </string>
+        <string address="32.00003C08" binary="false" id="1026">
+            <external_pointer>1.00001623</external_pointer>
+            <content>Do you wish to drop\rthe %s?\r\x00</content>
+        </string>
+        <string address="32.00003BEB" binary="false" id="1027">
+            <external_pointer>1.000019E1</external_pointer>
+            <content>%ss cannot equip this item.\r\x00</content>
+        </string>
+        <string address="32.0000403E" binary="false" id="1028">
+            <external_pointer>1.0000E3DF</external_pointer>
+            <external_pointer>25.0000065B</external_pointer>
+            <external_pointer>25.00000F75</external_pointer>
+            <content>Supply Store\x00Gear Store\x00Equipment Store\x00Sundries\x00Weaponry Store\x00Tool Store\x00Accouterments\x00Provisions\x00Merchandise\x00Armaments\x00</content>
+        </string>
+        <string address="32.00003F71" binary="false" id="1029">
+            <external_pointer>1.0000E3CC</external_pointer>
+            <external_pointer>25.00000649</external_pointer>
+            <external_pointer>25.00000F5C</external_pointer>
+            <content>%ef's\x00%n's\x00The %ct\x00The Essential\x00Used\x00The Practical\x00The Adventurer's\x00Rare\x00%ef's Finest\x00New\x00Unearthed\x00Vintage\x00The Emperor's\x00Elite\x00Bargain\x00%ef's General\x00The Basic\x00The Wyrm's\x00%ef's Professional\x00%ef's Quality\x00</content>
+        </string>
+        <string address="32.00003F28" binary="false" id="1030">
+            <external_pointer>1.0000E363</external_pointer>
+            <external_pointer>25.00000E89</external_pointer>
+            <external_pointer>25.00000FAC</external_pointer>
+            <content>Mercy\x00Faith\x00Charity\x00Justice\x00Temperance\x00the One\x00Truth\x00Solitude\x00Baal\x00Riana\x00</content>
+        </string>
+        <string address="32.00003EE9" binary="false" id="1031">
+            <external_pointer>1.0000E35C</external_pointer>
+            <external_pointer>25.00000E81</external_pointer>
+            <external_pointer>25.00000FA4</external_pointer>
+            <content>Mercy\x00Faith\x00Charity\x00War\x00Justice\x00Temperance\x00the One\x00Seth\x00Gideon\x00</content>
+        </string>
+        <string address="32.00003EAC" binary="false" id="1032">
+            <external_pointer>1.0000E355</external_pointer>
+            <external_pointer>25.00000E79</external_pointer>
+            <external_pointer>25.00000F9C</external_pointer>
+            <content>Red Rose\x00One Prophet\x00Golden Tomb\x00Knights of Hope\x00Gentle Hand\x00</content>
+        </string>
+        <string address="32.00003E81" binary="false" id="1033">
+            <external_pointer>1.0000E343</external_pointer>
+            <external_pointer>25.00000E66</external_pointer>
+            <external_pointer>25.00000F87</external_pointer>
+            <content>Order of the \x00Brotherhood of \x00Conclave of \x00</content>
+        </string>
+        <string address="32.00003DF7" binary="false" id="1034">
+            <external_pointer>1.0000E303</external_pointer>
+            <external_pointer>25.00000A3C</external_pointer>
+            <external_pointer>25.00000A25</external_pointer>
+            <external_pointer>25.00000F49</external_pointer>
+            <content>Griffin\x00Dragon\x00Golem\x00Goblin\x00Ogre\x00Giants\x00Djinn\x00Wolf\x00Huntsman\x00Mug\x00Cup\x00Dagger\x00Skull\x00Sword\x00Guard\x00Dungeon\x00Pit\x00Helm\x00Chasm\x00Castle\x00Jug\x00Eagle\x00Bird\x00</content>
+        </string>
+        <string address="32.00003D5D" binary="false" id="1035">
+            <external_pointer>1.0000E2F1</external_pointer>
+            <external_pointer>25.00000A2F</external_pointer>
+            <external_pointer>25.00000F44</external_pointer>
+            <content>Sailor's\x00Ship\x00Galley\x00Wharf\x00Pier\x00Serpent\x00Anchor\x00Crow's Nest\x00Tide\x00Mug\x00Cup\x00Dagger\x00Skull\x00Cutlass\x00Saber\x00Treasure\x00Locker\x00Chest\x00Port\x00Noose\x00Gibbet\x00Gull\x00Albatross\x00</content>
+        </string>
+        <string address="32.00003CB6" binary="false" id="1036">
+            <external_pointer>1.0000E2BE</external_pointer>
+            <external_pointer>25.00000A44</external_pointer>
+            <external_pointer>25.00000F10</external_pointer>
+            <content>Green\x00Black\x00Red\x00Blue\x00Gold\x00White\x00Silver\x00Crimson\x00Dirty\x00Haunted\x00Flying\x00Dancing\x00Laughing\x00Restless\x00King's\x00Queen's\x00Thirsty\x00Unfortunate\x00Lucky\x00Devil's\x00Rusty\x00Howling\x00Screaming\x00</content>
+        </string>
+        <string address="32.0000465D" binary="false" id="1037">
+            <external_pointer>12.0000032E</external_pointer>
+            <external_pointer>14.00000673</external_pointer>
+            <external_pointer>25.00000B1A</external_pointer>
+            <external_pointer>25.00000C3C</external_pointer>
+            <content>\x00Rat\x00Goblin\x00Lizard Man\x00Wolf\x00Snow Wolf\x00Orc\x00Skeleton\x00Minotaur\x00Spider\x00Ghoul\x00Hell Hound\x00Ghost\x00Zombie\x00Troll\x00Wraith\x00Homonculus\x00Ice Golem\x00Stone Golem\x00Iron Golem\x00Fire Daemon\x00Medusa\x00Vampire\x00Lich\x00Mage\x00Spellsword\x00Battlemage\x00Sorceror\x00Healer\x00Nightblade\x00Bard\x00Burglar\x00Rogue\x00Acrobat\x00Thief\x00Assassin\x00Monk\x00Archer\x00Ranger\x00Barbarian\x00Warrior\x00Knight\x00BattleMage\x00</content>
+        </string>
+        <string address="32.00004A58" binary="false" id="1038">
+            <external_pointer>1.00009FF2</external_pointer>
+            <external_pointer>25.00000AE1</external_pointer>
+            <content>white rose\x00letter of introduction\x00note\x00obsidian skull\x00gem\x00gold ingot\x00invitation\x00package\x00dagger\x00bottle of wine\x00receipt\x00contract\x00note\x00warped shield\x00broken sword\x00gold ingot\x00invitation\x00package\x00splintered staff\x00important letter\x00lock of ghoul's hair\x00bag of herbs\x00branch of black cypress\x00satchel of spices\x00old book\x00gold ingot\x00scrap of balrog hide\x00brimstone\x00tome of philosophy\x00test-tube of chemicals\x00holy relic\x00vial of blessed water\x00string of prayer beads\x00religious tome\x00sacred icon\x00gold ingot\x00book of prayers\x00letter\x00elixir\x00talisman\x00</content>
+        </string>
+        <string address="32.00004A3B" binary="false" id="1039">
+            <external_pointer>1.0000A09B</external_pointer>
+            <external_pointer>25.0000078D</external_pointer>
+            <content>note\x00scroll\x00writ\x00banner\x00gold\x00</content>
+        </string>
+        <string address="32.00004931" binary="false" id="1040">
+            <external_pointer>1.0000A0EB</external_pointer>
+            <external_pointer>25.00000C61</external_pointer>
+            <content>heir apparent\x00heir apparent\x00eldest son\x00eldest daughter\x00father\x00mother\x00son\x00daughter\x00brother\x00sister\x00youngest son\x00youngest daughter\x00younger brother\x00younger sister\x00youngest brother\x00youngest sister\x00uncle\x00aunt\x00cousin\x00cousin\x00stepson\x00stepdaughter\x00second cousin\x00second cousin\x00</content>
+        </string>
+        <string address="32.00004878" binary="false" id="1041">
+            <external_pointer>14.0000018B</external_pointer>
+            <content>Witch Pox\x00Plague\x00Yellow Fever\x00Stomach Rot\x00Consumption\x00Brain Fever\x00Swamp Rot\x00Calirons Curse\x00Cholera\x00Leprosy\x00Wound Rot\x00Red Death\x00Blood Rot\x00Typhoid Fever\x00Dementia\x00Chrondiasis\x00Wizard Fever\x00</content>
+        </string>
+        <string address="32.00004830" binary="false" id="1042">
+            <external_pointer>26.00000222</external_pointer>
+            <content>Diseased\x00Poisoned\x00Cursed\x00Blessed\x00Fortified\x00Drunk\x00Paralyzed\x00Regenerating\x00</content>
+        </string>
+        <string address="32.00004826" binary="false" id="1043">
+            <external_pointer>26.00000243</external_pointer>
+            <content>%s is %s.\x00</content>
+        </string>
+        <string address="32.0000481A" binary="false" id="1044">
+            <external_pointer>26.00000237</external_pointer>
+            <content>You are %s.\x00</content>
+        </string>
+        <string address="32.0000528B" binary="false" id="1045">
+            <external_pointer>5.00000DAF</external_pointer>
+            <content>This is a magically held lock...\x00</content>
+        </string>
+        <string address="32.00005074" binary="false" id="1046">
+            <external_pointer>5.00000DB4</external_pointer>
+            <content>This lock has nothing to fear from you...\x00It'd be a miracle if you picked this lock...\x00This lock looks to be beyond your skills...\x00You doubt your ability to open this lock...\x00This lock looks difficult...\x00You would be challenged by this lock...\x00This lock would prove a good challenge...\x00You think you should be able to pick this lock...\x00This lock seems relatively easy...\x00You are amused by this lock...\x00You laugh at the amateur quality of this lock...\x00You see a pathetic excuse for a lock...\x00This lock is an insult to your abilities...\x00</content>
+        </string>
+        <string address="32.00005024" binary="false" id="1047">
+            <external_pointer>15.000007E0</external_pointer>
+            <content>You can not travel until you have chosen\ra destination city, town, or village.\r\x00</content>
+        </string>
+        <string address="32.0000500C" binary="false" id="1048">
+            <external_pointer>15.00000B63</external_pointer>
+            <content>You are already in %s.\r\x00</content>
+        </string>
+        <string address="32.00004FF6" binary="false" id="1049">
+            <external_pointer>15.000005AE</external_pointer>
+            <content>You should arrive by\r\x00</content>
+        </string>
+        <string address="32.00004FD8" binary="false" id="1050">
+            <external_pointer>15.0000058B</external_pointer>
+            <content>The total distance is %d km.\r\x00</content>
+        </string>
+        <string address="32.00004FB2" binary="false" id="1051">
+            <external_pointer>15.0000056A</external_pointer>
+            <content>it will take %d days to travel here.\r\x00</content>
+        </string>
+        <string address="32.00004F92" binary="false" id="1052">
+            <external_pointer>15.00000557</external_pointer>
+            <content>\rBased on the current weather,\r\x00</content>
+        </string>
+        <string address="32.00004F74" binary="false" id="1053">
+            <external_pointer>15.000004EB</external_pointer>
+            <external_pointer>15.00000974</external_pointer>
+            <content>The %s of %s\rin %s Province.\r\x00</content>
+        </string>
+        <string address="32.00004F61" binary="false" id="1054">
+            <external_pointer>15.00000507</external_pointer>
+            <content>The %s in the %s.\r\x00</content>
+        </string>
+        <string address="32.00004F4D" binary="false" id="1055">
+            <external_pointer>15.000004AC</external_pointer>
+            <content>%s in %s Province.\r\x00</content>
+        </string>
+        <string address="32.00004F27" binary="false" id="1056">
+            <external_pointer>15.000009CF</external_pointer>
+            <content> It took %d days to reach your goal. \x00</content>
+        </string>
+        <string address="32.00004F1A" binary="false" id="1057">
+            <external_pointer>15.0000051F</external_pointer>
+            <external_pointer>15.00000999</external_pointer>
+            <content>The date is\r\x00</content>
+        </string>
+        <string address="32.00004F05" binary="false" id="1058">
+            <external_pointer>15.00000937</external_pointer>
+            <content>You have arrived in \x00</content>
+        </string>
+        <string address="32.00005B36" binary="false" id="1059">
+            <external_pointer>1.00001777</external_pointer>
+            <content>You currently have\r%d piece(s) of the\rStaff of Chaos.\r\x00</content>
+        </string>
+        <string address="32.00005AF3" binary="false" id="1060">
+            <external_pointer>1.00001763</external_pointer>
+            <content>This item is needed to\rcomplete your quest...\rSee your logbook...\r\x00</content>
+        </string>
+        <string address="32.00005AD7" binary="false" id="1061">
+            <external_pointer>1.0000212C</external_pointer>
+            <content>You are not a spellcaster!\r\x00</content>
+        </string>
+        <string address="32.00005ACB" binary="false" id="1062">
+            <external_pointer>1.00001679</external_pointer>
+            <content>Drop what?\r\x00</content>
+        </string>
+        <string address="32.00005AAE" binary="false" id="1063">
+            <external_pointer>1.000015A7</external_pointer>
+            <content>This item can't be dropped.\r\x00</content>
+        </string>
+        <string address="32.00005A90" binary="false" id="1064">
+            <external_pointer>1.00001999</external_pointer>
+            <content>This item can't be equipped.\r\x00</content>
+        </string>
+        <string address="32.00005A74" binary="false" id="1065">
+            <external_pointer>1.0000194C</external_pointer>
+            <content>You can only equip one %s.\r\x00</content>
+        </string>
+        <string address="32.00005A4F" binary="false" id="1066">
+            <external_pointer>1.0000170E</external_pointer>
+            <content>There is no room to drop this here.\r\x00</content>
+        </string>
+        <string address="32.00005A24" binary="false" id="1067">
+            <external_pointer>1.000015DA</external_pointer>
+            <content>This item will be lost here.\rDrop anyway?\r\x00</content>
+        </string>
+        <string address="32.00006D53" binary="false" id="1068">
+            <external_pointer>1.00007B09</external_pointer>
+            <content>1 use left    Weight: n/a\rCondition: Fragile\r\x00</content>
+        </string>
+        <string address="32.00006D40" binary="false" id="1069">
+            <external_pointer>1.00007D58</external_pointer>
+            <content>%d use(s) left...\r\x00</content>
+        </string>
+        <string address="32.00006D27" binary="false" id="1070">
+            <external_pointer>1.00007BC8</external_pointer>
+            <content>-%d to AR   Weight: n/a\r\x00</content>
+        </string>
+        <string address="32.00006D1C" binary="false" id="1071">
+            <external_pointer>1.00007D22</external_pointer>
+            <content>+%d to %s\r\x00</content>
+        </string>
+        <string address="32.00006D09" binary="false" id="1072">
+            <external_pointer>1.00007B99</external_pointer>
+            <content>%d charge(s) left\r\x00</content>
+        </string>
+        <string address="32.00006CF4" binary="false" id="1073">
+            <external_pointer>1.00007B20</external_pointer>
+            <content>-%d to AR   Weight: \x00</content>
+        </string>
+        <string address="32.00006CDA" binary="false" id="1074">
+            <external_pointer>1.00007B46</external_pointer>
+            <content>Damage: %d - %d  Weight: \x00</content>
+        </string>
+        <string address="32.00006CCB" binary="false" id="1075">
+            <external_pointer>1.00007CB5</external_pointer>
+            <content>Condition: %s\r\x00</content>
+        </string>
+        <string address="32.00006CC3" binary="false" id="1076">
+            <external_pointer>1.00007C8B</external_pointer>
+            <content>%d kgs\r\x00</content>
+        </string>
+        <string address="32.000072F0" binary="false" id="1077">
+            <external_pointer>25.00000FD9</external_pointer>
+            <content>the Palace\x00</content>
+        </string>
+        <string address="32.0000730F" binary="false" id="1078">
+            <external_pointer>25.000001B4</external_pointer>
+            <external_pointer>25.0000022A</external_pointer>
+            <external_pointer>25.000002A2</external_pointer>
+            <external_pointer>25.00000FE1</external_pointer>
+            <content>Mines\x00Dungeon\x00Cavern\x00Labyrinth\x00Catacombs\x00Hole\x00Crypt\x00Fortress\x00Mines\x00Dungeon\x00Cavern\x00Labyrinth\x00Catacombs\x00Hole\x00Crypt\x00Cellar\x00</content>
+        </string>
+        <string address="32.00007615" binary="false" id="1079">
+            <external_pointer>25.00000FBE</external_pointer>
+            <external_pointer>25.00001195</external_pointer>
+            <content>The UnderKing\x00The Necromancers\x00The Mages Guild\x00The Blades\x00The Dark Brotherhood\x00The Wharf Rats\x00The Thieves' Guild\x00</content>
+        </string>
+        <string address="32.000075A4" binary="false" id="1080">
+            <external_pointer>25.000007D6</external_pointer>
+            <content>deliver something\x00recover something\x00guard something\x00escort someone\x00capture someone\x00rescue someone\x00slay something\x00</content>
+        </string>
+        <string address="32.00007566" binary="false" id="1081">
+            <external_pointer>25.0000049B</external_pointer>
+            <content>north\x00northeast\x00east\x00southeast\x00south\x00southwest\x00west\x00northwest\x00</content>
+        </string>
+        <string address="32.0000755A" binary="false" id="1082">
+            <external_pointer>25.000006DF</external_pointer>
+            <content>his\x00her\x00its\x00</content>
+        </string>
+        <string address="32.0000754F" binary="false" id="1083">
+            <external_pointer>25.000006EA</external_pointer>
+            <content>him\x00her\x00it\x00</content>
+        </string>
+        <string address="32.00007545" binary="false" id="1084">
+            <external_pointer>25.000006EF</external_pointer>
+            <content>he\x00she\x00it\x00</content>
+        </string>
+        <string address="32.000074E9" binary="false" id="1085">
+            <external_pointer>25.00000D1F</external_pointer>
+            <content>\x08\x00The Wicked\x00The Dark\x00of %cn2\x00of the House of %dnl\x00of the %tem\x00the Warrior\x00the Mage\x00the %ra\x00</content>
+        </string>
+        <string address="32.00007499" binary="false" id="1086">
+            <external_pointer>25.00000BA4</external_pointer>
+            <content>\x03\x05Rogue\x00Old\x00Mad\x00Lord\x00Sir\x00Master\x00Brother\x00Father\x00Lady\x00Lady\x00Mistress\x00Sister\x00Mother\x00</content>
+        </string>
+        <string address="32.00007453" binary="false" id="1087">
+            <external_pointer>25.00000464</external_pointer>
+            <content>\x05\x02figure\x00character\x00individual\x00person\x00aristocrat\x00fellow\x00man\x00woman\x00lady\x00</content>
+        </string>
+        <string address="32.000073FF" binary="false" id="1088">
+            <external_pointer>25.000001EE</external_pointer>
+            <content>\x08\x00mysterious\x00influential\x00impatient\x00aggressive\x00peculiar\x00enigmatic\x00wealthy\x00well-known\x00</content>
+        </string>
+        <string address="32.000073B6" binary="false" id="1089">
+            <external_pointer>25.000001E5</external_pointer>
+            <content>\x08\x00rather\x00very\x00slightly\x00highly\x00notably\x00remarkably\x00surpassingly\x00singularly\x00</content>
+        </string>
+        <string address="32.000073AC" binary="false" id="1090">
+            <external_pointer>25.00000D10</external_pointer>
+            <content>war\x00peace\x00</content>
+        </string>
+        <string address="32.00007388" binary="false" id="1091">
+            <external_pointer>25.00000522</external_pointer>
+            <content>%adv %adj %des called %pre %fq %suf\x00</content>
+        </string>
+    </segment>
+    <segment absolute_offset="0003DBD0" id="33" length="00000A30" type="data" />
+    <segment absolute_offset="0003E600" id="34" length="00000F40" type="data" />
+    <segment absolute_offset="0003F540" id="35" length="0000ED70" type="data">
+        <block address="35.000018C3" id="1011" length="0028" />
+        <block address="35.0000195A" id="1093" length="00C0" />
+        <block address="35.00001B7A" id="1094" length="0F57" />
+        <block address="35.00002E02" id="1095" length="044D" />
+        <block address="35.000032C7" id="1096" length="00CF" />
+        <block address="35.000034EC" id="1097" length="00ED" />
+        <block address="35.00003788" id="1098" length="0012" />
+        <block address="35.000038A5" id="1545" length="0004" />
+        <block address="35.00003B54" id="1099" length="0008" />
+        <block address="35.00003CDB" id="1100" length="002B" />
+        <block address="35.00003D46" id="1101" length="0007" />
+        <block address="35.00003D6E" id="1102" length="0013" />
+        <block address="35.00003DE2" id="1103" length="00A9" />
+        <block address="35.00003EC8" id="1104" length="0079" />
+        <block address="35.00004076" id="1105" length="005C" />
+        <block address="35.000047A9" id="1106" length="009D" />
+        <block address="35.0000484A" id="1107" length="0062" />
+        <block address="35.000048AF" id="1108" length="0058" />
+        <block address="35.00004912" id="1109" length="0088" />
+        <block address="35.000049D4" id="1110" length="0015" />
+        <block address="35.000049F9" id="1111" length="003F" />
+        <block address="35.00004A70" id="1112" length="0026" />
+        <block address="35.00004AA1" id="1113" length="0012" />
+        <block address="35.00004AD8" id="1114" length="0079" />
+        <block address="35.00004B58" id="1115" length="0088" />
+        <block address="35.00004BFC" id="1116" length="0024" />
+        <block address="35.00004CF4" id="1117" length="0089" />
+        <block address="35.00004DE1" id="1118" length="0027" />
+        <block address="35.00004EA2" id="1119" length="0020" />
+        <block address="35.0000511D" id="1120" length="0119" />
+        <block address="35.00005282" id="1547" length="0032" />
+        <block address="35.0000537C" id="1121" length="0022" />
+        <block address="35.000053BD" id="1122" length="001C" />
+        <block address="35.000053EC" id="1123" length="0012" />
+        <block address="35.0000540B" id="1124" length="000B" />
+        <block address="35.00005429" id="1125" length="007D" />
+        <block address="35.000054AE" id="1549" length="00A2" />
+        <block address="35.000055BF" id="1126" length="0015" />
+        <block address="35.000056D1" id="1127" length="0034" />
+        <block address="35.000057FD" id="1128" length="0071" />
+        <block address="35.0000587A" id="1129" length="0066" />
+        <block address="35.000058E6" id="1130" length="005E" />
+        <block address="35.000059B8" id="1131" length="0076" />
+        <block address="35.00005B2E" id="1132" length="00A5" />
+        <block address="35.00005BD8" id="1543" length="0006" />
+        <block address="35.00005C4D" id="1133" length="0046" />
+        <block address="35.00005CA3" id="1134" length="0038" />
+        <block address="35.00005D31" id="1135" length="0089" />
+        <block address="35.0000642A" id="1136" length="0025" />
+        <block address="35.00006586" id="1137" length="0026" />
+        <block address="35.00006686" id="1138" length="0167" />
+        <block address="35.00006927" id="1139" length="00AF" />
+        <block address="35.00006A98" id="1140" length="0014" />
+        <block address="35.00006B7D" id="1141" length="0022" />
+        <block address="35.00006BC4" id="1142" length="001A" />
+        <block address="35.00006C5A" id="1143" length="004C" />
+        <block address="35.00006CBA" id="1144" length="0027" />
+        <block address="35.00006CE5" id="1145" length="001A" />
+        <block address="35.00006D04" id="1146" length="0110" />
+        <block address="35.00006E23" id="1147" length="0066" />
+        <block address="35.00006EB2" id="1148" length="002C" />
+        <block address="35.00006F69" id="1149" length="0025" />
+        <block address="35.00006FA5" id="1150" length="002E" />
+        <block address="35.00006FD6" id="1151" length="012C" />
+        <block address="35.0000710E" id="1152" length="004C" />
+        <block address="35.000071A7" id="1153" length="024C" />
+        <block address="35.000073F9" id="1154" length="004E" />
+        <block address="35.0000744D" id="1155" length="0029" />
+        <block address="35.0000747C" id="1156" length="00B4" />
+        <block address="35.000075B7" id="1157" length="00F7" />
+        <block address="35.00007735" id="1158" length="0042" />
+        <block address="35.0000777D" id="1159" length="0052" />
+        <block address="35.00007801" id="1160" length="002C" />
+        <block address="35.000078D4" id="1161" length="012C" />
+        <block address="35.00007A50" id="1162" length="0064" />
+        <block address="35.00007B29" id="1163" length="001B" />
+        <block address="35.00007BCD" id="1164" length="0041" />
+        <block address="35.00007D8B" id="1165" length="004B" />
+        <block address="35.00007F24" id="1166" length="01A7" />
+        <block address="35.000080DA" id="1167" length="0013" />
+        <block address="35.00008142" id="1168" length="0057" />
+        <block address="35.00008212" id="1169" length="001F" />
+        <block address="35.000082DC" id="1170" length="0064" />
+        <block address="35.00008364" id="1171" length="018B" />
+        <block address="35.00008519" id="1172" length="0040" />
+        <block address="35.0000855F" id="1173" length="0019" />
+        <block address="35.00008672" id="1174" length="0027" />
+        <block address="35.000086BD" id="1175" length="00EA" />
+        <block address="35.0000886A" id="1176" length="0035" />
+        <block address="35.000088B7" id="1177" length="0005" />
+        <block address="35.000088D0" id="1178" length="0059" />
+        <block address="35.00008931" id="1179" length="0030" />
+        <block address="35.00008985" id="1180" length="006E" />
+        <string address="35.000018C3" binary="false" id="1092">
+            <external_pointer>15.000004C2</external_pointer>
+            <external_pointer>15.000004D6</external_pointer>
+            <external_pointer>15.00000967</external_pointer>
+            <content>City-State\x00Town\x00Village\x00Village\x00Dungeon\x00</content>
+        </string>
+        <string address="35.000019DB" binary="false" id="1181">
+            <external_pointer>1.0000F417</external_pointer>
+            <content>Sorry pal! I am not interested in that...\x00</content>
+        </string>
+        <string address="35.00001A05" binary="false" id="1182">
+            <content>Sorry! We're closed.\x00</content>
+        </string>
+        <string address="35.000019AC" binary="false" id="1183">
+            <external_pointer>1.0000AAD4</external_pointer>
+            <external_pointer>1.0000AE7E</external_pointer>
+            <external_pointer>1.0000B1BD</external_pointer>
+            <external_pointer>1.0000C518</external_pointer>
+            <external_pointer>1.0000F6BF</external_pointer>
+            <external_pointer>1.0000FA61</external_pointer>
+            <external_pointer>5.00000F2B</external_pointer>
+            <external_pointer>9.0000096D</external_pointer>
+            <external_pointer>9.000009DA</external_pointer>
+            <content>Your inventory is full.\x00</content>
+        </string>
+        <string address="35.000019C4" binary="false" id="1541">
+            <content>Who?...\x00</content>
+        </string>
+        <string address="35.000019CC" binary="false" id="1184">
+            <content>Who drinks?...\x00</content>
+        </string>
+        <string address="35.00001993" binary="false" id="1185">
+            <external_pointer>1.0000FBC7</external_pointer>
+            <content>Your inventory is empty.\x00</content>
+        </string>
+        <string address="35.0000195A" binary="false" id="1186">
+            <external_pointer>1.000080C3</external_pointer>
+            <external_pointer>1.0000810A</external_pointer>
+            <external_pointer>1.0000A6CE</external_pointer>
+            <external_pointer>1.0000A9C4</external_pointer>
+            <external_pointer>1.0000AE8E</external_pointer>
+            <external_pointer>1.0000B1A0</external_pointer>
+            <external_pointer>1.0000B9A5</external_pointer>
+            <external_pointer>1.0000BBC4</external_pointer>
+            <external_pointer>1.0000C2F1</external_pointer>
+            <external_pointer>1.0000C897</external_pointer>
+            <external_pointer>1.0000CDF7</external_pointer>
+            <external_pointer>1.0000F6B2</external_pointer>
+            <content>You don't have enough money.\x00</content>
+        </string>
+        <string address="35.00001977" binary="false" id="1187">
+            <content>Whose item?...\x00</content>
+        </string>
+        <string address="35.00001986" binary="false" id="1188">
+            <content>For whom?...\x00</content>
+        </string>
+        <string address="35.00002A90" binary="false" id="1189">
+            <external_pointer>1.00000BF3</external_pointer>
+            <external_pointer>25.00000C74</external_pointer>
+            <content>Breton\x00Redguard\x00Nord\x00Dark Elf\x00High Elf\x00Wood Elf\x00Khajiit\x00Argonian\x00</content>
+        </string>
+        <string address="35.00002A45" binary="false" id="1190">
+            <external_pointer>1.00002651</external_pointer>
+            <external_pointer>1.000026B5</external_pointer>
+            <content>Bretons\x00Redguards\x00Nords\x00Dark Elves\x00High Elves\x00Wood Elves\x00Khajiit\x00Argonians\x00</content>
+        </string>
+        <string address="35.000029FC" binary="false" id="1191">
+            <external_pointer>1.00007D12</external_pointer>
+            <external_pointer>14.00000200</external_pointer>
+            <content>Strength\x00Intelligence\x00Willpower\x00Agility\x00Speed\x00Endurance\x00Personality\x00Luck\x00</content>
+        </string>
+        <string address="35.000029EA" binary="true" id="1192">
+            <external_pointer>1.00002445</external_pointer>
+            <external_pointer>1.00002479</external_pointer>
+            <content>\xC9M\xCB\x0F\xE6&quot;\xC7$\x11 L\xE5\x0E\xC8#!\xCA\x10</content>
+        </string>
+        <string address="35.0000295E" binary="false" id="1193">
+            <external_pointer>1.00002435</external_pointer>
+            <external_pointer>1.000082CB</external_pointer>
+            <external_pointer>1.0000A078</external_pointer>
+            <external_pointer>14.00000664</external_pointer>
+            <external_pointer>25.00000898</external_pointer>
+            <external_pointer>25.00000B09</external_pointer>
+            <external_pointer>25.00001030</external_pointer>
+            <content>Mage\x00Spellsword\x00Battlemage\x00Sorceror\x00Healer\x00Nightblade\x00Bard\x00Burglar\x00Rogue\x00Acrobat\x00Thief\x00Assassin\x00Monk\x00Archer\x00Ranger\x00Barbarian\x00Warrior\x00Knight\x00</content>
+        </string>
+        <string address="35.0000294C" binary="true" id="1194">
+            <external_pointer>1.00003705</external_pointer>
+            <external_pointer>1.000089DA</external_pointer>
+            <content> !&quot;#$\xE5\xE6\xC7\xC8\xC9\xCA\xCBLM\x0E\x0F\x10\x11</content>
+        </string>
+        <string address="35.0000293A" binary="true" id="1195">
+            <external_pointer>1.000051B4</external_pointer>
+            <content>\x08\x08\x08\x08\x08\x04\x04\x02\x04\x04\x03\x05\x08\x08\x08\x08\x08\x08</content>
+        </string>
+        <string address="35.0000291C" binary="true" id="1196">
+            <external_pointer>1.0000ADAE</external_pointer>
+            <external_pointer>1.0000AE23</external_pointer>
+            <external_pointer>1.0000AF4A</external_pointer>
+            <external_pointer>1.0000B5B8</external_pointer>
+            <content>\x19\x002\x002\x00K\x00K\x00K\x00K\x00d\x00d\x00}\x00}\x00\x96\x00\xC8\x00\xFA\x00\xF4\x01</content>
+        </string>
+        <string address="35.0000290D" binary="true" id="1197">
+            <external_pointer>1.0000AF6F</external_pointer>
+            <external_pointer>1.0000B5D0</external_pointer>
+            <content>\x00\x05\r\xFF\x0E\x0F\x17&lt;!\x12&amp;%\x15\x18-</content>
+        </string>
+        <string address="35.000027C9" binary="false" id="1198">
+            <external_pointer>1.0000717B</external_pointer>
+            <external_pointer>1.0000ADA6</external_pointer>
+            <external_pointer>1.0000AE4E</external_pointer>
+            <external_pointer>1.0000AE9A</external_pointer>
+            <content>Potion of Stamina\x00Potion of Strength\x00Potion of Healing\x00Potion of Restore Power\x00Potion of Resist Fire\x00Potion of Resist Cold\x00Potion of Resist Shock\x00Potion of Cure Disease\x00Potion of Heal True\x00Potion of Levitation\x00Potion of Resist Poison\x00Potion of Free Action\x00Potion of Cure Poison\x00Potion of Invisibility\x00Potion of Purification\x00</content>
+        </string>
+        <string address="35.000027BF" binary="true" id="1199">
+            <external_pointer>1.0000BB79</external_pointer>
+            <content>\n\x00\x14\x00#\x002\x00K\x00</content>
+        </string>
+        <string address="35.0000278E" binary="false" id="1200">
+            <external_pointer>1.0000BAA6</external_pointer>
+            <external_pointer>1.0000BADE</external_pointer>
+            <external_pointer>1.0000BEE5</external_pointer>
+            <content>Single\x00Double\x00Suite\x00King's Suite\x00Emperor's Suite\x00</content>
+        </string>
+        <string address="35.0000277E" binary="true" id="1201">
+            <external_pointer>1.0000EB69</external_pointer>
+            <external_pointer>1.0000F9E8</external_pointer>
+            <content>\x03\x00\x04\x00\x14\x00(\x00d\x00\xC8\x00\x90\x01\xD0\x07</content>
+        </string>
+        <string address="35.00002773" binary="true" id="1202">
+            <external_pointer>1.0000E83F</external_pointer>
+            <content>\x04\x03\x02\x02\x02\x01\x01\x1E\x1E\x1E\x1E</content>
+        </string>
+        <string address="35.000026CE" binary="false" id="1203">
+            <external_pointer>1.0000E839</external_pointer>
+            <external_pointer>1.0000EE87</external_pointer>
+            <content>Leather Cuirass\x00Leather Gauntlets\x00Leather Greaves\x00Leather Pauldron (L)\x00Leather Pauldron (R)\x00Leather Helm\x00Leather Boots\x00Buckler\x00Round Shield\x00Kite shield\x00Tower shield\x00</content>
+        </string>
+        <string address="35.000026C3" binary="true" id="1204">
+            <external_pointer>1.0000E822</external_pointer>
+            <content>\x05\x04\x03\x03\x03\x02\x01\x1E\x1E\x1E\x1E</content>
+        </string>
+        <string address="35.0000262C" binary="false" id="1205">
+            <external_pointer>1.0000E81C</external_pointer>
+            <external_pointer>1.0000EE96</external_pointer>
+            <content>Chain Cuirass\x00Chain Gauntlets\x00Chain Greaves\x00Chain Pauldron (L)\x00Chain Pauldron (R)\x00Chain Helm\x00Chain Boots\x00Buckler\x00Round Shield\x00Kite shield\x00Tower shield\x00</content>
+        </string>
+        <string address="35.00002621" binary="true" id="1206">
+            <external_pointer>1.0000E805</external_pointer>
+            <content>\x06\x05\x04\x04\x04\x03\x02\x03\x04\x05\x06</content>
+        </string>
+        <string address="35.0000258A" binary="false" id="1207">
+            <external_pointer>1.0000E7FF</external_pointer>
+            <external_pointer>1.0000EE8F</external_pointer>
+            <content>Plate Cuirass\x00Plate Gauntlets\x00Plate Greaves\x00Plate Pauldron (L)\x00Plate Pauldron (R)\x00Plate Helm\x00Plate Boots\x00Buckler\x00Round Shield\x00Kite shield\x00Tower shield\x00</content>
+        </string>
+        <string address="35.00002584" binary="true" id="1208">
+            <external_pointer>1.0000EFD9</external_pointer>
+            <external_pointer>1.0000F4E9</external_pointer>
+            <content><pointer id="1207" /><pointer id="1205" /><pointer id="1203" /></content>
+        </string>
+        <string address="35.0000257C" binary="true" id="1209">
+            <external_pointer>1.0000EB4A</external_pointer>
+            <content>\x0B&lt;LV\\`be</content>
+        </string>
+        <string address="35.00002574" binary="true" id="1210">
+            <external_pointer>1.0000B21E</external_pointer>
+            <external_pointer>1.0000ED46</external_pointer>
+            <external_pointer>1.0000ED97</external_pointer>
+            <external_pointer>1.0000EDE9</external_pointer>
+            <content>\xFB\x00\x00\x05\n\x0F\x14\x19</content>
+        </string>
+        <string address="35.0000253B" binary="false" id="1211">
+            <external_pointer>16.00000013</external_pointer>
+            <external_pointer>16.0000005B</external_pointer>
+            <content>Iron\x00Steel\x00Silver\x00Elven\x00Dwarven\x00Mithril\x00Adamantium\x00Ebony\x00</content>
+        </string>
+        <string address="35.0000251F" binary="true" id="1212">
+            <external_pointer>1.0000EBDA</external_pointer>
+            <external_pointer>1.0000F98A</external_pointer>
+            <content>\xDC\x05\xEE\x02\xF4\x01\xEE\x02\xE8\x03,\x01\xC8\x00\xD0\x07d\x00\xC8\x00L\x1D\x10'\xA8aP\xC3</content>
+        </string>
+        <string address="35.00002511" binary="true" id="1213">
+            <external_pointer>1.0000EBB3</external_pointer>
+            <content>\x0B\n\x09\n\x0B\x08\x08\x0C\x07\x07\x11\x12\x13\x14</content>
+        </string>
+        <string address="35.00002503" binary="true" id="1214">
+            <external_pointer>1.0000EBF5</external_pointer>
+            <content>\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xC1\x12&quot;\x18,)</content>
+        </string>
+        <string address="35.00002449" binary="false" id="1215">
+            <external_pointer>16.0000010E</external_pointer>
+            <content>of Strength\x00of Intelligence\x00of Willpower\x00of Agility\x00of Speed\x00of Endurance\x00of Personality\x00of Luck\x00of Jumping\x00of Levitation\x00of Passwall\x00of Invisibility\x00of Spell Reflection\x00of Regeneration\x00</content>
+        </string>
+        <string address="35.0000243D" binary="true" id="1216">
+            <external_pointer>1.0000EA94</external_pointer>
+            <content>\x06\x05\x04\x04\x04\x03\x02\x03\x04\x05\x06\x09</content>
+        </string>
+        <string address="35.00002427" binary="true" id="1217">
+            <external_pointer>1.0000E920</external_pointer>
+            <external_pointer>1.0000ECE7</external_pointer>
+            <external_pointer>1.0000ED26</external_pointer>
+            <external_pointer>1.0000F6D6</external_pointer>
+            <external_pointer>1.0000F6EE</external_pointer>
+            <content>\x00\x10\x00\x08\x00\x0C\x00\x08\x00\x08\x00\n\x00\x08\x00\x02\x00\x05\x00\x08\x00\n</content>
+        </string>
+        <string address="35.00002411" binary="true" id="1218">
+            <external_pointer>1.0000E925</external_pointer>
+            <external_pointer>1.0000ED0B</external_pointer>
+            <external_pointer>1.0000F6F3</external_pointer>
+            <content>\x00\x08\x00\x04\x00\x06\x00\x05\x00\x05\x00\x06\x00\x04\x00\x02\x00\x05\x00\x08\x00\n</content>
+        </string>
+        <string address="35.000023FB" binary="true" id="1219">
+            <external_pointer>1.0000E91B</external_pointer>
+            <external_pointer>1.0000ECC2</external_pointer>
+            <external_pointer>1.0000F6E9</external_pointer>
+            <content>\x00\x04\x00\x02\x00\x02\x00\x03\x00\x03\x00\x03\x00\x03\x00\x02\x00\x05\x00\x08\x00\n</content>
+        </string>
+        <string address="35.000023F0" binary="true" id="1220">
+            <external_pointer>1.0000E802</external_pointer>
+            <external_pointer>1.0000EAAC</external_pointer>
+            <external_pointer>1.0000F987</external_pointer>
+            <external_pointer>1.0000F9C1</external_pointer>
+            <content>d-P&lt;&lt;P2\n\x14\x1E2</content>
+        </string>
+        <string address="35.000023E5" binary="true" id="1221">
+            <external_pointer>1.0000E81F</external_pointer>
+            <external_pointer>1.0000F9C6</external_pointer>
+            <content>2\x1E(\x1E\x1E(\x1E\n\x14\x1E2</content>
+        </string>
+        <string address="35.000023DA" binary="true" id="1222">
+            <external_pointer>1.0000E83C</external_pointer>
+            <external_pointer>1.0000F9BC</external_pointer>
+            <content>\x19\x0F\x14\x0F\x0F\x14\x0F\n\x14\x1E2</content>
+        </string>
+        <string address="35.0000238D" binary="false" id="1223">
+            <external_pointer>1.0000E8F2</external_pointer>
+            <content>Chest\x00Hands\x00Legs\x00Shoulder\x00Shoulder\x00Head\x00Foot\x00General\x00General\x00General\x00General\x00</content>
+        </string>
+        <string address="35.00002320" binary="false" id="1224">
+            <external_pointer>16.000000F2</external_pointer>
+            <content>Cuirass\x00Gauntlets\x00Greaves\x00Pauldron (L)\x00Pauldron (R)\x00Helm\x00Boots\x00Buckler\x00Round Shield\x00Kite Shield\x00Tower Shield\x00</content>
+        </string>
+        <string address="35.00002315" binary="true" id="1225">
+            <external_pointer>1.0000F082</external_pointer>
+            <content>.25\x00.5\x00.75\x00</content>
+        </string>
+        <string address="35.0000230F" binary="true" id="1226">
+            <external_pointer>1.0000F073</external_pointer>
+            <content>@\x00\x80\x00\xC0\x00</content>
+        </string>
+        <string address="35.000022F3" binary="true" id="1227">
+            <external_pointer>1.0000EC0A</external_pointer>
+            <external_pointer>1.0000F97F</external_pointer>
+            <content>\xEE\x02X\x02,\x01\xF4\x01\xEE\x02,\x01X\x02\xE8\x03X\x02X\x02\xE8\x03\x88\x13\x10'\xA8a</content>
+        </string>
+        <string address="35.000022E5" binary="true" id="1228">
+            <external_pointer>1.0000EBC2</external_pointer>
+            <content>\x0B\x09\x08\n\x0B\x09\n\r\n\x07\x0E\x10\x12\x13</content>
+        </string>
+        <string address="35.000022D7" binary="true" id="1229">
+            <external_pointer>1.0000EC25</external_pointer>
+            <content>\xFF\x17\xFF\xFF\xFF\xFF\x0E\xFF\x1C\x0F&quot;'*#</content>
+        </string>
+        <string address="35.0000221B" binary="false" id="1230">
+            <external_pointer>16.0000013D</external_pointer>
+            <content>of Strength\x00of Shock Resistance\x00of Will\x00of Agility\x00of Speed\x00of Endurance\x00of Fire Resistance\x00of Luck\x00of Lightning\x00of Frost Resistance\x00of Passwall\x00of Life Steal\x00of Paralyzation\x00of Firestorm\x00</content>
+        </string>
+        <string address="35.000021F7" binary="true" id="1231">
+            <external_pointer>1.0000EE5B</external_pointer>
+            <content>\x01\x08\x01\x06\x01\x08\x01\x0C\x03\x0C\x02\x10\x02\x12\x01\x08\x01\n\x03\x10\x03\x15\x01\x0C\x02\x0E\x03\x12\x02\x0C\x02\x10\x02\x08\x02\x0C</content>
+        </string>
+        <string address="35.000021F4" binary="true" id="1232">
+            <external_pointer>1.0000E9E9</external_pointer>
+            <external_pointer>1.0000EAC5</external_pointer>
+            <content>\x06\x09\x0B</content>
+        </string>
+        <string address="35.000021E2" binary="true" id="1233">
+            <external_pointer>1.0000E65D</external_pointer>
+            <external_pointer>1.0000E862</external_pointer>
+            <external_pointer>1.0000E9AC</external_pointer>
+            <content>\x01\x01\x02\x03\x04\x05\x06\x07\x08\x09\n\x03\x04\x05\x04\x06\x03\x06</content>
+        </string>
+        <string address="35.000021D0" binary="true" id="1234">
+            <external_pointer>1.0000E672</external_pointer>
+            <external_pointer>1.0000E874</external_pointer>
+            <external_pointer>1.0000E9D0</external_pointer>
+            <external_pointer>1.0000F97C</external_pointer>
+            <external_pointer>1.0000F99C</external_pointer>
+            <content>\x05\x01\x05\n\x0C\x0F\x1E\x03\x08\x192\n\x0F\x14\x0C\x14\n\x14</content>
+        </string>
+        <string address="35.000021AC" binary="true" id="1235">
+            <external_pointer>1.0000E944</external_pointer>
+            <external_pointer>1.0000EE47</external_pointer>
+            <external_pointer>1.0000F703</external_pointer>
+            <content>\x00\x03\x80\x00\x00\x03\x00\x06\x00\x07\x00\x08\x00\x0E\x80\x00\x00\x02\x00\x06\x00\x08\x00\x08\x00\n\x00\x10\x00\x08\x00\x0C\x80\x00\x00\x01</content>
+        </string>
+        <string address="35.0000219A" binary="true" id="1236">
+            <external_pointer>1.000072F2</external_pointer>
+            <external_pointer>1.0000E972</external_pointer>
+            <external_pointer>1.0000EE69</external_pointer>
+            <external_pointer>10.0000040F</external_pointer>
+            <content>\x02\x01\x01\x01\x01\x01\x02\x01\x01\x01\x02\x01\x02\x02\x02\x02\x02\x02</content>
+        </string>
+        <string address="35.00002100" binary="false" id="1237">
+            <external_pointer>1.0000714E</external_pointer>
+            <external_pointer>1.0000EF0E</external_pointer>
+            <external_pointer>1.0000F4F3</external_pointer>
+            <external_pointer>16.00000121</external_pointer>
+            <content>Staff\x00Dagger\x00Shortsword\x00Broadsword\x00Saber\x00Longsword\x00Claymore\x00Tanto\x00Wakizashi\x00Katana\x00Dai-Katana\x00Mace\x00Flail\x00War Hammer\x00War Axe\x00Battle Axe\x00Short Bow\x00Long Bow\x00</content>
+        </string>
+        <string address="35.000020F9" binary="true" id="1238">
+            <external_pointer>19.000001B1</external_pointer>
+            <content>\xFF\x00\x01\x02\x03\x04\x05</content>
+        </string>
+        <string address="35.000020E4" binary="true" id="1239">
+            <external_pointer>1.0000B93D</external_pointer>
+            <external_pointer>1.0000B9DE</external_pointer>
+            <external_pointer>1.0000BCE4</external_pointer>
+            <content>\x01\x01\x01\x01\x01\x01\x01\x02\x02\x02\x02\x02\x02\x02\x03\x03\x03\x03\x03\x03\x03</content>
+        </string>
+        <string address="35.0000200E" binary="false" id="1240">
+            <external_pointer>1.0000B96D</external_pointer>
+            <external_pointer>1.0000BCD2</external_pointer>
+            <content>Beer\x00Ale\x00Stout\x00Bock\x00Bitters\x00Lager\x00Pilsner\x00Red wine\x00Port\x00White wine\x00Grog\x00Cider\x00Guttgeist\x00Sulphurwater\x00Orcgut\x00Djinn 'n Tonic\x00Golem-maker\x00Charybdis-on-the-Rocks\x00Liquid Lich\x00High Rock Milk\x00Claymore-Through-Your-Spleen\x00</content>
+        </string>
+        <string address="35.00001FF6" binary="false" id="1241">
+            <external_pointer>1.0000A9F9</external_pointer>
+            <external_pointer>1.0000FA39</external_pointer>
+            <content>You are unsuccessful...\x00</content>
+        </string>
+        <string address="35.00001FD4" binary="true" id="1242">
+            <external_pointer>1.0000B4A8</external_pointer>
+            <content>\n\x00\x19\x002\x00d\x00\xF4\x01\x03\x05\n\x0F-\x1E\x0F</content>
+        </string>
+        <string address="35.00001FE5" binary="false" id="1243">
+            <content>\x09`MENU  OPTIONS\r\x00</content>
+        </string>
+        <string address="35.00001FCF" binary="true" id="1244">
+            <external_pointer>1.0000B486</external_pointer>
+            <content>U[_bd</content>
+        </string>
+        <string address="35.00001FC7" binary="true" id="1245">
+            <external_pointer>1.0000B40C</external_pointer>
+            <content>\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF</content>
+        </string>
+        <string address="35.00001FB7" binary="true" id="1246">
+            <external_pointer>1.0000B435</external_pointer>
+            <content>\xF4\x01\xF4\x01\xF4\x01\xF4\x01\xF4\x01\xF4\x01\xF4\x01\xF4\x01</content>
+        </string>
+        <string address="35.00001FAF" binary="true" id="1247">
+            <external_pointer>1.0000B3FD</external_pointer>
+            <content>\x07\x07\x07\x07\x07\x07\x07\x07</content>
+        </string>
+        <string address="35.00001F4E" binary="false" id="1248">
+            <external_pointer>9.00000193</external_pointer>
+            <external_pointer>16.000000A0</external_pointer>
+            <content>of Strength\x00of Intelligence\x00of Willpower\x00of Agility\x00of Speed\x00of Endurance\x00of Personality\x00of Luck\x00</content>
+        </string>
+        <string address="35.00001F46" binary="true" id="1249">
+            <external_pointer>1.0000B445</external_pointer>
+            <content>\x88\x13\x98:\xA8a\xB8\x88</content>
+        </string>
+        <string address="35.00001F3E" binary="true" id="1250">
+            <external_pointer>1.0000B3DD</external_pointer>
+            <content>3L[e\x08\x0B\x0E\x11</content>
+        </string>
+        <string address="35.00001F24" binary="false" id="1251">
+            <external_pointer>1.0000193C</external_pointer>
+            <external_pointer>16.00000070</external_pointer>
+            <external_pointer>16.00000084</external_pointer>
+            <content>Bracelet\x00Belt\x00Torc\x00Amulet\x00</content>
+        </string>
+        <string address="35.00001F14" binary="true" id="1252">
+            <external_pointer>1.0000B385</external_pointer>
+            <content>2\x00K\x00d\x00,\x01\x90\x01\xF4\x01X\x02 \x03</content>
+        </string>
+        <string address="35.00001F0C" binary="true" id="1253">
+            <external_pointer>1.0000B533</external_pointer>
+            <content>\x03\x03\x03\x05\x05\x07\x0B\x12</content>
+        </string>
+        <string address="35.00001F04" binary="true" id="1254">
+            <external_pointer>1.0000B53F</external_pointer>
+            <content>\x02\x03\x04\x09\r\x15!-</content>
+        </string>
+        <string address="35.00001E9B" binary="false" id="1255">
+            <external_pointer>16.000000CB</external_pointer>
+            <content>of Light\x00of Wanderlight\x00of Wizard Lock\x00of Opening\x00of Healing\x00of Cure Poison\x00of Heal True\x00of Purification\x00</content>
+        </string>
+        <string address="35.00001E89" binary="true" id="1256">
+            <external_pointer>1.0000B37F</external_pointer>
+            <content>2\x002\x00d\x00}\x00\x96\x00\xC8\x00,\x01^\x01X\x02</content>
+        </string>
+        <string address="35.00001E80" binary="true" id="1257">
+            <external_pointer>1.0000B500</external_pointer>
+            <content>\x03\x03\x05\x05\x07\x07\x09\x09\x09</content>
+        </string>
+        <string address="35.00001E77" binary="true" id="1258">
+            <external_pointer>1.0000B510</external_pointer>
+            <content>\x00\x01\x07\r\x12\x16\x1B\x1F&quot;</content>
+        </string>
+        <string address="35.00001E06" binary="false" id="1259">
+            <external_pointer>16.000000D5</external_pointer>
+            <content>of Stamina\x00of Sanctuary\x00of Shielding\x00of Healing\x00of Levitation\x00of Force Bolt\x00of Force Wall\x00of Silence\x00of Passwall\x00</content>
+        </string>
+        <string address="35.00001DE8" binary="true" id="1260">
+            <external_pointer>1.0000B374</external_pointer>
+            <content>2\x002\x00d\x00d\x00\x96\x00\xC8\x00\xFA\x00,\x01E\x01^\x01\x90\x01\xA9\x01\xC2\x01\xF4\x01\xF4\x01</content>
+        </string>
+        <string address="35.00001DD9" binary="true" id="1261">
+            <external_pointer>1.0000B4CD</external_pointer>
+            <content>\x03\x03\x07\x07\x07\x07\x09\x09\x09\x0B\r\r\r\x0F\x11</content>
+        </string>
+        <string address="35.00001DCA" binary="true" id="1262">
+            <external_pointer>1.0000B4DD</external_pointer>
+            <content>\x06\x08\x13 \x14\x10\x0C\x1C\x1D#'(*\x1E%</content>
+        </string>
+        <string address="35.00001CFF" binary="false" id="1263">
+            <external_pointer>16.000000D0</external_pointer>
+            <content>of Wizard's Fire\x00of Shocking\x00of Curse\x00of Far Silence\x00of Poison Dart\x00of Fireball\x00of Ice Storm\x00of Lightning\x00of Pitfall\x00of Fire Storm\x00of Life Steal\x00of Toxic Cloud\x00of Paralyzation\x00of Wildfire\x00of Free Action\x00</content>
+        </string>
+        <string address="35.00001CF8" binary="true" id="1264">
+            <external_pointer>1.0000B398</external_pointer>
+            <content>\x10\n\x15\x0F\x1F\x193</content>
+        </string>
+        <string address="35.00001CF7" binary="true" id="1265">
+            <external_pointer>1.0000B393</external_pointer>
+            <content>\x05</content>
+        </string>
+        <string address="35.00001CEF" binary="true" id="1266">
+            <external_pointer>1.0000B35E</external_pointer>
+            <content>\xE8\x03\xC4\x09\x88\x13\x10'</content>
+        </string>
+        <string address="35.00001CE7" binary="true" id="1267">
+            <external_pointer>1.0000B325</external_pointer>
+            <content>3L[e\x08\x0B\x0E\x11</content>
+        </string>
+        <string address="35.00001CCD" binary="false" id="1268">
+            <external_pointer>1.00001931</external_pointer>
+            <external_pointer>16.000000B5</external_pointer>
+            <content>Mark\x00Crystal\x00Bracers\x00Ring\x00</content>
+        </string>
+        <string address="35.00001BE0" binary="false" id="1269">
+            <external_pointer>25.00000264</external_pointer>
+            <content>Lord's Mail\x00Oghma Infinium\x00Chrysamere\x00Staff of Magnus\x00Volendrung\x00Spell Breaker\x00Necromancer's Amulet\x00Auriel's Shield\x00Ebony Blade\x00Warlock's Ring\x00Auriel's Bow\x00Skeleton's Key\x00Ring of Phynaster\x00King Orgnum's Coffer\x00Ebony Mail\x00Ring of Khajiit\x00</content>
+        </string>
+        <string address="35.00001B7A" binary="false" id="1270">
+            <external_pointer>1.0000DD50</external_pointer>
+            <content>Fang Lair\x00Labyrinthian\x00Elden Grove\x00Halls of Colossus\x00Crystal Tower\x00Crypt of Hearts\x00Murkwood\x00Dagoth-Ur\x00</content>
+        </string>
+        <string address="35.0000315D" binary="false" id="1271">
+            <external_pointer>25.000008E1</external_pointer>
+            <content>New Life Festival\x00South Wind's Prayer\x00Hearts Day\x00First Planting\x00Jester's Day\x00Second Planting\x00Mid-Year Celebration\x00Merchants Festival\x00Sun's Rest\x00Harvest End\x00Tales and Tallow\x00Witches Festival\x00Emperor's Day\x00Warriors Festival\x00North Wind's Prayer\x00</content>
+        </string>
+        <string address="35.0000311C" binary="true" id="1272">
+            <external_pointer>0.00001537</external_pointer>
+            <content><pointer id="1273" /><pointer id="1274" /><pointer id="1275" /><pointer id="1276" /><pointer id="1277" /><pointer id="1278" /><pointer id="1279" /></content>
+        </string>
+        <string address="35.0000312A" binary="false" id="1273">
+            <content>Morndas\x00</content>
+        </string>
+        <string address="35.00003132" binary="false" id="1274">
+            <content>Tirdas\x00</content>
+        </string>
+        <string address="35.00003139" binary="false" id="1275">
+            <content>Middas\x00</content>
+        </string>
+        <string address="35.00003140" binary="false" id="1276">
+            <content>Turdas\x00</content>
+        </string>
+        <string address="35.00003147" binary="false" id="1277">
+            <content>Fredas\x00</content>
+        </string>
+        <string address="35.0000314E" binary="false" id="1278">
+            <content>Loredas\x00</content>
+        </string>
+        <string address="35.00003156" binary="false" id="1279">
+            <content>Sundas\x00</content>
+        </string>
+        <string address="35.0000307C" binary="true" id="1280">
+            <external_pointer>0.0000150C</external_pointer>
+            <content><pointer id="1281" /><pointer id="1282" /><pointer id="1283" /><pointer id="1284" /><pointer id="1285" /><pointer id="1286" /><pointer id="1287" /><pointer id="1288" /><pointer id="1289" /><pointer id="1290" /><pointer id="1291" /><pointer id="1292" /></content>
+        </string>
+        <string address="35.00003094" binary="false" id="1281">
+            <content>Morning Star\x00</content>
+        </string>
+        <string address="35.000030A1" binary="false" id="1282">
+            <content>Sun's Dawn\x00</content>
+        </string>
+        <string address="35.000030AC" binary="false" id="1283">
+            <content>First Seed\x00</content>
+        </string>
+        <string address="35.000030B7" binary="false" id="1284">
+            <content>Rain's Hand\x00</content>
+        </string>
+        <string address="35.000030C3" binary="false" id="1285">
+            <content>Second Seed\x00</content>
+        </string>
+        <string address="35.000030CF" binary="false" id="1286">
+            <content>Mid Year\x00</content>
+        </string>
+        <string address="35.000030D8" binary="false" id="1287">
+            <content>Sun's Height\x00</content>
+        </string>
+        <string address="35.000030E5" binary="false" id="1288">
+            <content>Last Seed\x00</content>
+        </string>
+        <string address="35.000030EF" binary="false" id="1289">
+            <content>Hearthfire\x00</content>
+        </string>
+        <string address="35.000030FA" binary="false" id="1290">
+            <content>Frostfall\x00</content>
+        </string>
+        <string address="35.00003104" binary="false" id="1291">
+            <content>Sun's Dusk\x00</content>
+        </string>
+        <string address="35.0000310F" binary="false" id="1292">
+            <content>Evening Star\x00</content>
+        </string>
+        <string address="35.00002E02" binary="false" id="1293">
+            <external_pointer>1.0000265E</external_pointer>
+            <external_pointer>1.000026C2</external_pointer>
+            <external_pointer>25.000002D9</external_pointer>
+            <external_pointer>25.00000317</external_pointer>
+            <external_pointer>25.000003E6</external_pointer>
+            <external_pointer>25.0000077A</external_pointer>
+            <external_pointer>25.000007BB</external_pointer>
+            <external_pointer>25.00000CE1</external_pointer>
+            <content>High Rock\x00Hammerfell\x00Skyrim\x00Morrowind\x00Summurset\x00Valenwood\x00Elsweyr\x00Black Marsh\x00Solitude\x00Dawnstar\x00Winterhold\x00Snowhawk\x00Riften\x00Falcrenth\x00Whiterun\x00Windhelm\x00Corinth\x00Alabaster\x00Senchal\x00Rimmen\x00Torval\x00Dune\x00Orcrest\x00Riverhold\x00Elinhir\x00Taneth\x00Sentinel\x00Gilane\x00Skaven\x00Dragonstar\x00Rihad\x00Hegathe\x00Northpoint\x00Daggerfall\x00Shornhelm\x00Camlorn\x00Farrun\x00Evermore\x00Wayrest\x00Jehanna\x00Ebonheart\x00Narsis\x00Blacklight\x00Firewatch\x00Necrom\x00Mournhold\x00Tear\x00Kragenmoor\x00Eldenroot\x00Silvenar\x00Woodhearth\x00Falinesti\x00Greenheart\x00Arenthia\x00Haven\x00Southpoint\x00Dusk\x00Sunhold\x00Alinor\x00Shimmerene\x00Lillandril\x00Firsthold\x00Skywatch\x00Cloudrest\x00Helstrom\x00Archon\x00Gideon\x00Blackrose\x00Lilmoth\x00Soulrest\x00Stormhold\x00Thorn\x00</content>
+        </string>
+        <string address="35.00003327" binary="false" id="1294">
+            <external_pointer>9.00000AB3</external_pointer>
+            <content>a Brass\x00an Iron\x00a Steel\x00a Silver\x00a Gold\x00a Mithril\x00an Amethyst\x00a Diamond\x00an Emerald\x00a Ruby\x00a Sapphire\x00a Crystal\x00</content>
+        </string>
+        <string address="35.000032F1" binary="false" id="1295">
+            <external_pointer>25.0000115D</external_pointer>
+            <content>Lady\x00Duchess\x00Baroness\x00Countess\x00Princess\x00Queen\x00Empress\x00</content>
+        </string>
+        <string address="35.000032C7" binary="false" id="1296">
+            <external_pointer>25.00001158</external_pointer>
+            <content>Lord\x00Duke\x00Baron\x00Count\x00Prince\x00King\x00Emperor\x00</content>
+        </string>
+        <string address="35.000034EC" binary="false" id="1297">
+            <external_pointer>1.000071E3</external_pointer>
+            <external_pointer>25.0000027D</external_pointer>
+            <content>Lord's Mail\x00Ebony Mail\x00Auriel's Shield\x00Spell Breaker\x00Ebony Blade\x00Auriel's Bow\x00Chrysamere\x00Staff of Magnus\x00Volendrung\x00Warlock's Ring\x00Ring of Phynaster\x00Ring of Khajiit\x00Necromancer's Amulet\x00King Orgnum's Coffer\x00Oghma Infinium\x00Skeleton's Key\x00</content>
+        </string>
+        <string address="35.00003788" binary="false" id="1298">
+            <external_pointer>2.00000696</external_pointer>
+            <content>I have no clue...\x00</content>
+        </string>
+        <string address="35.000038A5" binary="false" id="1544">
+            <external_pointer>1.00000624</external_pointer>
+            <content>sen\x00</content>
+        </string>
+        <string address="35.00003B54" binary="false" id="1299">
+            <external_pointer>20.00000782</external_pointer>
+            <content>Locked.\x00</content>
+        </string>
+        <string address="35.00003CDB" binary="false" id="1300">
+            <external_pointer>1.00000EFF</external_pointer>
+            <content>You must distribute all your bonus points.\x00</content>
+        </string>
+        <string address="35.00003D46" binary="false" id="1301">
+            <external_pointer>1.000019C9</external_pointer>
+            <content>Thieve\x00</content>
+        </string>
+        <string address="35.00003D6E" binary="false" id="1302">
+            <external_pointer>1.000027D3</external_pointer>
+            <external_size>1.000027C6</external_size>
+            <external_size>1.000027D6</external_size>
+            <external_size>1.000027E2</external_size>
+            <content>Know ye this also:\r</content>
+        </string>
+        <string address="35.00003E1A" binary="false" id="1303">
+            <external_pointer>1.00002469</external_pointer>
+            <content>Choose thy class...\x00</content>
+        </string>
+        <string address="35.00003DEB" binary="false" id="1304">
+            <external_pointer>1.00002713</external_pointer>
+            <external_size addition="-1">1.00002716</external_size>
+            <content>her\x00</content>
+        </string>
+        <string address="35.00003DEF" binary="false" id="1305">
+            <external_pointer>1.00002AC7</external_pointer>
+            <content>You must distribute all your bonus points.\x00</content>
+        </string>
+        <string address="35.00003DE2" binary="false" id="1306">
+            <external_pointer>1.000026FD</external_pointer>
+            <external_size addition="-1">1.00002703</external_size>
+            <content>his home\x00</content>
+        </string>
+        <string address="35.00003EC8" binary="false" id="1307">
+            <content>%s of %s in %s Province\x00Travel distance: %d kilometers\x00%s\x00Enter name of city to find:\\r(Press enter for list of cities)\\r</content>
+        </string>
+        <string address="35.000040AE" binary="false" id="1308">
+            <external_pointer>5.00000FB9</external_pointer>
+            <content>You have already used that today...\x00</content>
+        </string>
+        <string address="35.0000408D" binary="false" id="1309">
+            <external_pointer>5.00000F68</external_pointer>
+            <content>The magic coffer yields %d gold.\x00</content>
+        </string>
+        <string address="35.0000408C" binary="true" id="1310">
+            <external_pointer>3.00000294</external_pointer>
+            <external_pointer>5.000007F7</external_pointer>
+            <external_pointer>5.000008F2</external_pointer>
+            <content>\x00</content>
+        </string>
+        <string address="35.00004076" binary="false" id="1311">
+            <external_pointer>5.00000D62</external_pointer>
+            <content>Hit 'J' to exit boat.\x00</content>
+        </string>
+        <string address="35.000047E4" binary="false" id="1312">
+            <external_pointer>1.00004353</external_pointer>
+            <external_pointer>1.00004387</external_pointer>
+            <external_pointer>1.000044E3</external_pointer>
+            <content>%u hours remaining...\x00</content>
+        </string>
+        <string address="35.000047CF" binary="false" id="1313">
+            <external_pointer>1.0000434E</external_pointer>
+            <external_pointer>1.00004382</external_pointer>
+            <external_pointer>1.000044D9</external_pointer>
+            <content>%u hour remaining...\x00</content>
+        </string>
+        <string address="35.000047BC" binary="false" id="1314">
+            <external_pointer>1.0000422D</external_pointer>
+            <external_pointer>1.00004263</external_pointer>
+            <external_pointer>1.000042D6</external_pointer>
+            <content>%u hours passed...\x00</content>
+        </string>
+        <string address="35.000047A9" binary="false" id="1315">
+            <external_pointer>1.00004223</external_pointer>
+            <external_pointer>1.00004259</external_pointer>
+            <external_pointer>1.000042CC</external_pointer>
+            <content>%u hour passed....\x00</content>
+        </string>
+        <string address="35.00004889" binary="false" id="1316">
+            <external_pointer>1.00004334</external_pointer>
+            <external_pointer>1.000043BE</external_pointer>
+            <content>You wake up... \x00</content>
+        </string>
+        <string address="35.00004899" binary="false" id="1317">
+            <content>Your time is up...\x00</content>
+        </string>
+        <string address="35.00004877" binary="false" id="1318">
+            <external_pointer>1.0000420E</external_pointer>
+            <external_pointer>1.000042B9</external_pointer>
+            <content>You are healed...\x00</content>
+        </string>
+        <string address="35.0000484A" binary="false" id="1319">
+            <external_pointer>1.0000447A</external_pointer>
+            <content>How many hours do you wish to rest?         \x00</content>
+        </string>
+        <string address="35.000048E4" binary="false" id="1320">
+            <external_pointer>8.0000004B</external_pointer>
+            <content>WARNING: City data file corrupted!\x00</content>
+        </string>
+        <string address="35.000048CB" binary="false" id="1321">
+            <external_pointer>1.00004026</external_pointer>
+            <content>You don't need to rest.\x00\x00</content>
+        </string>
+        <string address="35.000048AF" binary="false" id="1322">
+            <external_pointer>1.00004442</external_pointer>
+            <content>There are enemies nearby...\x00</content>
+        </string>
+        <string address="35.00004912" binary="false" id="1323">
+            <external_pointer>1.000052A4</external_pointer>
+            <content>A voice booms in your head, &quot;Look upon\rthe pages marked as The Known Spellbook\rin your manual and answer...&quot;\r-\rWhat is the cost of %s?\n\x00</content>
+        </string>
+        <string address="35.000049E1" binary="false" id="1324">
+            <external_pointer>1.00004C77</external_pointer>
+            <content>...More\x00</content>
+        </string>
+        <string address="35.000049D4" binary="false" id="1325">
+            <external_pointer>1.000051F2</external_pointer>
+            <content>Gold left : \x00</content>
+        </string>
+        <string address="35.00004A16" binary="false" id="1326">
+            <external_pointer>1.0000467C</external_pointer>
+            <external_pointer>1.00004683</external_pointer>
+            <content>Are you sure ?\r\x00</content>
+        </string>
+        <string address="35.000049F9" binary="false" id="1327">
+            <external_pointer>1.00004BAB</external_pointer>
+            <content>This item will encumber you.\x00</content>
+        </string>
+        <string address="35.00004A70" binary="false" id="1328">
+            <external_pointer>1.00005079</external_pointer>
+            <content>Delete spell\r%s\rfrom your spellbook?\r\x00</content>
+        </string>
+        <string address="35.00004AA1" binary="false" id="1329">
+            <external_pointer>0.00000C75</external_pointer>
+            <content>Imperial Dungeons\x00</content>
+        </string>
+        <string address="35.00004B36" binary="false" id="1330">
+            <external_pointer>9.00000BBD</external_pointer>
+            <content>The %s has nothing usable.\x00</content>
+        </string>
+        <string address="35.00004B29" binary="true" id="1331">
+            <external_pointer>9.000005C3</external_pointer>
+            <content>fanfare2.voc\x00</content>
+        </string>
+        <string address="35.00004AD8" binary="false" id="1332">
+            <external_pointer>9.00000852</external_pointer>
+            <external_pointer>9.00000C34</external_pointer>
+            <content>Parchment\x00Tablet piece\x00Selene's heart\x00Tablet\x00Diamond\x00map\x00Tablet\x00Hammer of Gharen\x00</content>
+        </string>
+        <string address="35.00004BC0" binary="false" id="1333">
+            <external_pointer>9.00000775</external_pointer>
+            <content>You have found %u gold pieces!!\x00</content>
+        </string>
+        <string address="35.00004B9D" binary="false" id="1334">
+            <external_pointer>9.00000729</external_pointer>
+            <content>There is nothing usable left here.\x00</content>
+        </string>
+        <string address="35.00004B82" binary="false" id="1335">
+            <external_pointer>9.00000AC5</external_pointer>
+            <content>You open door with %s key.\x00</content>
+        </string>
+        <string address="35.00004B6B" binary="false" id="1336">
+            <external_pointer>9.00000ACA</external_pointer>
+            <content>You have found %s key.\x00</content>
+        </string>
+        <string address="35.00004B58" binary="false" id="1337">
+            <external_pointer>9.00000875</external_pointer>
+            <external_pointer>9.00000C0B</external_pointer>
+            <external_pointer>9.00000C74</external_pointer>
+            <content>Staff Pieces (%u) \x00</content>
+        </string>
+        <string address="35.00004C0A" binary="false" id="1338">
+            <external_pointer>9.00000177</external_pointer>
+            <content>Bag of %u gold pieces\x00</content>
+        </string>
+        <string address="35.00004BFC" binary="false" id="1339">
+            <external_pointer>9.0000017C</external_pointer>
+            <content>%u gold piece\x00</content>
+        </string>
+        <string address="35.00004D74" binary="false" id="1340">
+            <external_pointer>0.000014A0</external_pointer>
+            <content>midnight\x00</content>
+        </string>
+        <string address="35.00004D6B" binary="false" id="1341">
+            <external_pointer>0.0000149B</external_pointer>
+            <external_pointer>0.000014AB</external_pointer>
+            <content>at night\x00</content>
+        </string>
+        <string address="35.00004D5C" binary="false" id="1342">
+            <external_pointer>0.00001493</external_pointer>
+            <content>in the evening\x00</content>
+        </string>
+        <string address="35.00004D4B" binary="false" id="1343">
+            <external_pointer>0.0000148B</external_pointer>
+            <content>in the afternoon\x00</content>
+        </string>
+        <string address="35.00004D46" binary="false" id="1344">
+            <external_pointer>0.0000147F</external_pointer>
+            <content>noon\x00</content>
+        </string>
+        <string address="35.00004D37" binary="false" id="1345">
+            <external_pointer>0.000014BB</external_pointer>
+            <content>in the morning\x00</content>
+        </string>
+        <string address="35.00004D29" binary="false" id="1346">
+            <external_pointer>0.000014B3</external_pointer>
+            <content>early morning\x00</content>
+        </string>
+        <string address="35.00004D1F" binary="true" id="1347">
+            <external_pointer>0.000014D2</external_pointer>
+            <content>%d:0%d %s\x00</content>
+        </string>
+        <string address="35.00004D16" binary="true" id="1348">
+            <external_pointer>0.000014CA</external_pointer>
+            <content>%d:%d %s\x00</content>
+        </string>
+        <string address="35.00004CF4" binary="false" id="1349">
+            <external_pointer>0.0000153B</external_pointer>
+            <content>%s, %u%s of %s in the year 3E %d\r\x00</content>
+        </string>
+        <string address="35.00004DE1" binary="false" id="1350">
+            <external_pointer>1.00005BF4</external_pointer>
+            <content>You have gained a level of experience!\x00</content>
+        </string>
+        <string address="35.00004EA2" binary="true" id="1351">
+            <external_pointer>1.0000546D</external_pointer>
+            <content><pointer id="1355" /><pointer id="1352" /><pointer id="1353" /><pointer id="1354" /><pointer id="1355" /><pointer id="1355" /><pointer id="1355" /><pointer id="1355" /><pointer id="1355" /><pointer id="1355" /></content>
+        </string>
+        <string address="35.00004EB6" binary="false" id="1352">
+            <content>st\x00</content>
+        </string>
+        <string address="35.00004EB9" binary="false" id="1353">
+            <content>nd\x00</content>
+        </string>
+        <string address="35.00004EBC" binary="false" id="1354">
+            <content>rd\x00</content>
+        </string>
+        <string address="35.00004EBF" binary="false" id="1355">
+            <external_pointer>1.0000544F</external_pointer>
+            <content>th\x00</content>
+        </string>
+        <string address="35.0000511D" binary="false" id="1356">
+            <external_pointer>1.0000630A</external_pointer>
+            <external_pointer>1.00006ACC</external_pointer>
+            <content>Cause\x00Continuous Damage\x00Create\x00Cure\x00Damage\x00Designate as Non-Target\x00Destroy\x00Disintegrate\x00Dispel\x00Drain Attribute\x00Elemental Resistance\x00Fortify Attribute\x00Heal\x00Transfer\x00Imprison\x00Invisibility\x00Levitate\x00Light\x00Lock\x00Open\x00Regenerate\x00Silence\x00Spell Absorption\x00Spell Reflection\x00Spell Resistance\x00</content>
+        </string>
+        <string address="35.00005282" binary="true" id="1546">
+            <external_pointer>1.00006326</external_pointer>
+            <external_pointer>1.00006AE3</external_pointer>
+            <external_pointer>1.00006C68</external_pointer>
+            <content><pointer id="1357" /><pointer id="1358" /><pointer id="1359" /><pointer id="1357" /><pointer id="1358" />\x00\x00<pointer id="1360" />\x00\x00\x00\x00<pointer id="1367" /><pointer id="1366" /><pointer id="1367" /><pointer id="1365" /><pointer id="1363" />\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00</content>
+        </string>
+        <string address="35.0000537C" binary="false" id="1357">
+            <content>Disease\x00Poison\x00Paralyzation\x00Curse\x00</content>
+        </string>
+        <string address="35.000053BD" binary="false" id="1358">
+            <external_pointer>1.00006355</external_pointer>
+            <external_pointer>1.00006B09</external_pointer>
+            <external_pointer>1.00006C92</external_pointer>
+            <content>Health\x00Fatigue\x00Spell Points\x00</content>
+        </string>
+        <string address="35.000053EC" binary="false" id="1359">
+            <content>Shield\x00Wall\x00Floor\x00</content>
+        </string>
+        <string address="35.0000540B" binary="false" id="1360">
+            <content>Wall\x00Floor\x00</content>
+        </string>
+        <string address="35.000054ED" binary="false" id="1361">
+            <external_pointer>1.000067A4</external_pointer>
+            <external_pointer>1.000067D3</external_pointer>
+            <content>Caster only\x001 Target, Touch\x001 Target at Range\x00Area - Centered on Caster\x00Area - at Range, Explosion\x00</content>
+        </string>
+        <string address="35.000054CB" binary="false" id="1362">
+            <external_pointer>1.000066F5</external_pointer>
+            <external_pointer>1.000067F8</external_pointer>
+            <content>Fire\x00Cold\x00Poison\x00Shock\x00Magic\x00None\x00</content>
+        </string>
+        <string address="35.000054AE" binary="false" id="1363">
+            <external_pointer>1.00006350</external_pointer>
+            <external_pointer>1.00006B0D</external_pointer>
+            <external_pointer>1.00006C78</external_pointer>
+            <content>Attribute\x00Figured Attribute\x00</content>
+        </string>
+        <string address="35.00005496" binary="false" id="1365">
+            <external_pointer>1.00006344</external_pointer>
+            <external_pointer>1.00006B04</external_pointer>
+            <external_pointer>1.00006C6C</external_pointer>
+            <external_pointer>1.00006C8B</external_pointer>
+            <content>Fatigue\x00Health\x00\x00</content>
+        </string>
+        <string address="35.00005473" binary="false" id="1366">
+            <content>Fire\x00Cold\x00Electricity\x00Acid\x00Poison\x00\x00</content>
+        </string>
+        <string address="35.00005429" binary="false" id="1367">
+            <external_pointer>1.00006361</external_pointer>
+            <external_pointer>1.00006B1D</external_pointer>
+            <external_pointer>1.00006C99</external_pointer>
+            <content>Strength\x00Intelligence\x00Willpower\x00Agility\x00Speed\x00Endurance\x00Personality\x00Luck\x00\x00</content>
+        </string>
+        <string address="35.000055BF" binary="false" id="1368">
+            <content>Point Cost : \n\nDONE\r\x00</content>
+        </string>
+        <string address="35.00005701" binary="false" id="1369">
+            <external_pointer>1.00006C39</external_pointer>
+            <content>not\x00</content>
+        </string>
+        <string address="35.000056FB" binary="false" id="1370">
+            <external_pointer>1.00006CCC</external_pointer>
+            <content>party\x00</content>
+        </string>
+        <string address="35.000056F4" binary="false" id="1371">
+            <external_pointer>1.00006CC1</external_pointer>
+            <content>caster\x00</content>
+        </string>
+        <string address="35.000056E4" binary="false" id="1372">
+            <external_pointer>1.00006CF4</external_pointer>
+            <content>is a projectile\x00</content>
+        </string>
+        <string address="35.000056D1" binary="false" id="1373">
+            <external_pointer>1.00006CE9</external_pointer>
+            <content>follows the caster\x00</content>
+        </string>
+        <string address="35.0000583A" binary="false" id="1374">
+            <content>\x09\xD4Which category ?\r\x00UG\x00WXaX\x00\x00\x09\xD6U\x09\xD8ser\r\x00\x09\xD6G\x09\xD8eneral\r\x00</content>
+        </string>
+        <string address="35.0000587A" binary="false" id="1375">
+            <external_pointer>1.00006A22</external_pointer>
+            <content>The spell has been inscribed\rin your spellbook.\r\x00</content>
+        </string>
+        <string address="35.000058AB" binary="false" id="1376">
+            <external_pointer>1.00006A39</external_pointer>
+            <content>You do not have enough money\rto purchase this spell\r\x00</content>
+        </string>
+        <string address="35.000058E6" binary="false" id="1377">
+            <external_pointer>1.000069E8</external_pointer>
+            <content>Not enough room to store spell.\r\x00</content>
+        </string>
+        <string address="35.00005907" binary="false" id="1378">
+            <external_pointer>1.0000698C</external_pointer>
+            <content>You must name this spell!\r\x00</content>
+        </string>
+        <string address="35.00005922" binary="false" id="1379">
+            <external_pointer>1.000069AA</external_pointer>
+            <content>You must choose an effect first!\r\x00</content>
+        </string>
+        <string address="35.000059B8" binary="false" id="1380">
+            <external_pointer>11.0000024B</external_pointer>
+            <content>Select target for pilfering...\x00</content>
+        </string>
+        <string address="35.000059D7" binary="false" id="1381">
+            <external_pointer>11.000004B1</external_pointer>
+            <content>You are in %s.\rIt is %s.\rThe date is %sYou are currently carrying %d kg out of %d kg.\r\x00</content>
+        </string>
+        <string address="35.00005B2E" binary="false" id="1382">
+            <external_pointer>11.00000221</external_pointer>
+            <content>You can't camp. Enemies are nearby!!!\x00</content>
+        </string>
+        <string address="35.00005B54" binary="false" id="1383">
+            <external_pointer>11.0000022C</external_pointer>
+            <content>You can't camp here.\x00</content>
+        </string>
+        <string address="35.00005B69" binary="false" id="1384">
+            <external_pointer>11.0000037C</external_pointer>
+            <content>You cannot travel from here.\x00</content>
+        </string>
+        <string address="35.00005B86" binary="false" id="1385">
+            <external_pointer>11.000003C0</external_pointer>
+            <content>You cannot travel when monsters are near...\x00</content>
+        </string>
+        <string address="35.00005BB2" binary="false" id="1386">
+            <external_pointer>11.000003AD</external_pointer>
+            <content>You cannot travel from a boat...\x00</content>
+        </string>
+        <string address="35.00005BD8" binary="true" id="1542">
+            <external_pointer>1.00007161</external_pointer>
+            <content><pointer id="1207" /><pointer id="1205" /><pointer id="1203" /></content>
+        </string>
+        <string address="35.00005C4D" binary="false" id="1387">
+            <external_pointer>1.000079B7</external_pointer>
+            <content>Broken\x00Useless\x00Battered\x00Worn\x00Used\x00Slightly Used\x00Almost New\x00New\x00</content>
+        </string>
+        <string address="35.00005C8C" binary="false" id="1388">
+            <external_pointer>1.00007174</external_pointer>
+            <content>Potion\x00</content>
+        </string>
+        <string address="35.00005CA3" binary="false" id="1389">
+            <content>Unable to save game properly.\rDisk may be full or bad.\r\x00</content>
+        </string>
+        <string address="35.00005D31" binary="false" id="1390">
+            <external_pointer>13.0000004C</external_pointer>
+            <content>You cannot save in a tavern, store or temple...\x00</content>
+        </string>
+        <string address="35.00005D61" binary="true" id="1391">
+            <external_pointer>13.00000101</external_pointer>
+            <external_pointer addition="4">13.000000FB</external_pointer>
+            <content>re*.00\x00</content>
+        </string>
+        <string address="35.00005D68" binary="true" id="1392">
+            <external_pointer>13.00000109</external_pointer>
+            <external_pointer addition="4">13.000000FE</external_pointer>
+            <content>in*.00\x00</content>
+        </string>
+        <string address="35.00005D6F" binary="false" id="1393">
+            <external_pointer>13.000002A0</external_pointer>
+            <content>No game saved here....\x00</content>
+        </string>
+        <string address="35.00005D86" binary="false" id="1394">
+            <external_pointer>13.000007B8</external_pointer>
+            <content>Kindly waiteth. Ye olde\rdiske needs be accessed...\r\x00</content>
+        </string>
+        <string address="35.0000642A" binary="false" id="1395">
+            <external_pointer>1.00007E9A</external_pointer>
+            <content>Enter counter offer :               \x00</content>
+        </string>
+        <string address="35.00006586" binary="false" id="1396">
+            <external_pointer>0.00003AFA</external_pointer>
+            <content>On this body you find %d gold pieces.\x00</content>
+        </string>
+        <string address="35.00006686" binary="false" id="1397">
+            <external_pointer>14.00000216</external_pointer>
+            <content>Your %s is fortified.\r\x00</content>
+        </string>
+        <string address="35.0000669D" binary="false" id="1398">
+            <external_pointer>14.000001A4</external_pointer>
+            <content>You have %s.\r\x00</content>
+        </string>
+        <string address="35.000066AB" binary="false" id="1399">
+            <external_pointer>14.00000259</external_pointer>
+            <content>You are %s.\r\x00</content>
+        </string>
+        <string address="35.000066B8" binary="false" id="1400">
+            <external_pointer>14.00000243</external_pointer>
+            <content>healthy\x00diseased\x00poisoned\x00in critical condition\x00drunk\x00invisible\x00a non-target\x00resistant to fire\x00resistant to cold\x00resistant to shock\x00resistant to acid\x00resistant to poison\x00levitating\x00\x00silenced\x00able to absorb spells\x00able to reflect spells\x00resistant to spells\x00shielded\x00regenerating\x00paralyzed\x00cursed\x00being drained\x00</content>
+        </string>
+        <string address="35.00006927" binary="false" id="1401">
+            <external_pointer>15.00000AD0</external_pointer>
+            <content>Enter the name of the city or press Enter key for a list.\x00</content>
+        </string>
+        <string address="35.00006961" binary="false" id="1402">
+            <external_pointer>32.00003640</external_pointer>
+            <content>You have arrived.\x00</content>
+        </string>
+        <string address="35.00006973" binary="false" id="1403">
+            <external_pointer>15.00000815</external_pointer>
+            <content>Considering your condition, you may not survive\rthis journey. Do you wish to attempt the journey?\r\x00</content>
+        </string>
+        <string address="35.00006A98" binary="false" id="1404">
+            <external_pointer>15.00000952</external_pointer>
+            <content>the Imperial City. \x00</content>
+        </string>
+        <string address="35.00006B7D" binary="false" id="1405">
+            <external_pointer>1.00008F57</external_pointer>
+            <content>%at of %dnl\x00%dnl's %at\x00%mn's Lair\x00</content>
+        </string>
+        <string address="35.00006C5A" binary="false" id="1406">
+            <external_pointer>1.0000A069</external_pointer>
+            <external_pointer>1.0000A0DB</external_pointer>
+            <content> the \x00</content>
+        </string>
+        <string address="35.00006C60" binary="false" id="1407">
+            <external_pointer>1.00009CE5</external_pointer>
+            <content>%oth, a rescuer from \r%tq %fq! Hurry,\rI must be home in %qc \rby %da!\r\x00</content>
+        </string>
+        <string address="35.00006CBA" binary="false" id="1408">
+            <external_pointer>1.0000A2B5</external_pointer>
+            <external_pointer>1.0000A2EE</external_pointer>
+            <external_pointer>1.0000A39D</external_pointer>
+            <content>ERROR: Please save, reboot and reload.\x00</content>
+        </string>
+        <string address="35.00006D67" binary="false" id="1409">
+            <external_pointer>1.0000AAE1</external_pointer>
+            <content>Mages Guild\x00</content>
+        </string>
+        <string address="35.00006DB2" binary="false" id="1410">
+            <external_pointer>1.0000A9BC</external_pointer>
+            <content>You already know what that is!\x00</content>
+        </string>
+        <string address="35.00006DD1" binary="false" id="1411">
+            <external_pointer>1.0000A936</external_pointer>
+            <content>I can tell you if that is magical, but it\r will cost you %lu gold.\x00</content>
+        </string>
+        <string address="35.00006EB2" binary="false" id="1412">
+            <external_pointer>1.0000AD51</external_pointer>
+            <content>\x09031%s\n\x09235%lu gp\x00</content>
+        </string>
+        <string address="35.00006EC4" binary="false" id="1413">
+            <external_pointer>1.0000A76A</external_pointer>
+            <external_pointer>1.0000ADD7</external_pointer>
+            <content>\x09200%u gp\n%s\x00</content>
+        </string>
+        <string address="35.00006ED1" binary="false" id="1414">
+            <content>\x09200%u gp\n%s\x00</content>
+        </string>
+        <string address="35.00006FA5" binary="false" id="1415">
+            <external_pointer>1.0000A978</external_pointer>
+            <content>The item is now identified in your inventory.\x00</content>
+        </string>
+        <string address="35.00006FD6" binary="false" id="1416">
+            <content>\x09`You only have room for %u potions.\r\x09`Do you want %u potions?\x00</content>
+        </string>
+        <string address="35.00007015" binary="false" id="1417">
+            <external_pointer>1.0000AEA3</external_pointer>
+            <content>How many of that %s would you like?\x00</content>
+        </string>
+        <string address="35.00007039" binary="false" id="1418">
+            <content>Today our healing service is free of charge.\x00</content>
+        </string>
+        <string address="35.00007066" binary="false" id="1419">
+            <external_pointer>1.0000A924</external_pointer>
+            <content>That object can be identified for free.\x00</content>
+        </string>
+        <string address="35.0000708E" binary="true" id="1420">
+            <external_pointer>1.0000B5ED</external_pointer>
+            <content>\x00\x00\x00\x00</content>
+        </string>
+        <string address="35.000071A7" binary="false" id="1421">
+            <external_pointer>1.0000BAE7</external_pointer>
+            <content>Rooms Available\x00</content>
+        </string>
+        <string address="35.000071B7" binary="false" id="1422">
+            <external_pointer>1.0000BA4B</external_pointer>
+            <content>You are unsuccessful...\x00</content>
+        </string>
+        <string address="35.000071CF" binary="false" id="1423">
+            <external_pointer>1.0000BA23</external_pointer>
+            <content>Are you trying to sneak into a room?\x00</content>
+        </string>
+        <string address="35.000071F4" binary="false" id="1424">
+            <external_pointer>1.0000BB29</external_pointer>
+            <content>How many days are you staying?         \x00</content>
+        </string>
+        <string address="35.0000721C" binary="false" id="1425">
+            <external_pointer>1.0000BAB4</external_pointer>
+            <content>You successfully got into a room...\rThe %s is yours for the next 24 hours.\x00</content>
+        </string>
+        <string address="35.00007267" binary="false" id="1426">
+            <external_pointer>1.0000BD18</external_pointer>
+            <content>\x09200%u gp\n%s\x00</content>
+        </string>
+        <string address="35.00007274" binary="false" id="1427">
+            <content>\x09\xFCThe cost is %d gold\rDo you accept?\r\x00</content>
+        </string>
+        <string address="35.0000729A" binary="false" id="1428">
+            <external_pointer>1.0000BC31</external_pointer>
+            <external_pointer>1.0000BF5C</external_pointer>
+            <external_pointer>1.0000BFB2</external_pointer>
+            <content>\x09`You only have %d remaining hours.\r\x09`Rest this long?\x00</content>
+        </string>
+        <string address="35.000072D0" binary="false" id="1429">
+            <external_pointer>1.00004202</external_pointer>
+            <external_pointer>1.0000BF98</external_pointer>
+            <content>The innkeeper tells you your time is up.\x00</content>
+        </string>
+        <string address="35.000072F9" binary="true" id="1430">
+            <content>newmenu.img\x00</content>
+        </string>
+        <string address="35.00007305" binary="false" id="1431">
+            <external_pointer>1.0000B976</external_pointer>
+            <content>You finish the %s, thankful for a safe haven...\x00</content>
+        </string>
+        <string address="35.00007335" binary="false" id="1432">
+            <external_pointer>1.0000B79D</external_pointer>
+            <content>You must first rent a room.\x00</content>
+        </string>
+        <string address="35.00007351" binary="false" id="1433">
+            <external_pointer>1.0000BBA2</external_pointer>
+            <content>Today you can have the room of your choice\rfree of charge for the next 24 hours.\x00</content>
+        </string>
+        <string address="35.000073A2" binary="true" id="1434">
+            <external_pointer>1.0000BE32</external_pointer>
+            <content>in*.%d\x00\x00</content>
+        </string>
+        <string address="35.000073F9" binary="false" id="1435">
+            <external_pointer>1.0000C3C7</external_pointer>
+            <content>Receive our blessings...\x00</content>
+        </string>
+        <string address="35.00007412" binary="false" id="1436">
+            <external_pointer>1.0000C0A5</external_pointer>
+            <content>%s, thou art healed...\x00</content>
+        </string>
+        <string address="35.00007429" binary="false" id="1437">
+            <external_pointer>1.0000C0C7</external_pointer>
+            <content>%s is in perfect condition...\x00</content>
+        </string>
+        <string address="35.0000744D" binary="false" id="1438">
+            <external_pointer>1.0000C323</external_pointer>
+            <content>How much do you wish to donate?         \x00</content>
+        </string>
+        <string address="35.0000747C" binary="false" id="1439">
+            <external_pointer>1.0000C229</external_pointer>
+            <content>Curing %s...\x00</content>
+        </string>
+        <string address="35.00007489" binary="false" id="1440">
+            <external_pointer>1.0000C154</external_pointer>
+            <content>\x09190%u gp\n%s\x00</content>
+        </string>
+        <string address="35.00007496" binary="false" id="1441">
+            <external_pointer>1.0000C23E</external_pointer>
+            <content>\x09190%u gp\nCure all\x00</content>
+        </string>
+        <string address="35.000074A9" binary="false" id="1442">
+            <external_pointer>1.0000C13D</external_pointer>
+            <content>Diseased\x00Poisoned\x00Cursed\x00</content>
+        </string>
+        <string address="35.000074C2" binary="false" id="1443">
+            <external_pointer>1.0000C1F2</external_pointer>
+            <content>We humbly beg your forgivness for we cannot cure %s...\x00</content>
+        </string>
+        <string address="35.000074F9" binary="true" id="1444">
+            <external_pointer>1.0000C271</external_pointer>
+            <content>\x192Kd</content>
+        </string>
+        <string address="35.000074FD" binary="false" id="1445">
+            <external_pointer>1.0000C06A</external_pointer>
+            <content>\x09\xFCThis service will cost %d gold. \rDo you accept?\r\x00</content>
+        </string>
+        <string address="35.000075B7" binary="false" id="1446">
+            <external_pointer>1.0000C5E1</external_pointer>
+            <external_pointer>1.0000CA00</external_pointer>
+            <content>Can't you afford it?\x00Can't you wait that long?\x00Maybe you're not interested?\x00</content>
+        </string>
+        <string address="35.00007603" binary="false" id="1449">
+            <external_pointer>1.0000C7F5</external_pointer>
+            <content>Your %s does not need any repairing.\x00</content>
+        </string>
+        <string address="35.00007628" binary="false" id="1450">
+            <external_pointer>1.0000C59A</external_pointer>
+            <content>Sorry, I already have my hands full. Try another smith.\x00</content>
+        </string>
+        <string address="35.00007660" binary="false" id="1451">
+            <external_pointer>1.0000C42B</external_pointer>
+            <content>Which job do you wish to inspect?\x00</content>
+        </string>
+        <string address="35.00007682" binary="false" id="1452">
+            <external_pointer>1.0000C4B9</external_pointer>
+            <content>Your %s is ready.\x00</content>
+        </string>
+        <string address="35.00007735" binary="false" id="1453">
+            <external_pointer>17.00000367</external_pointer>
+            <content>More...\x00</content>
+        </string>
+        <string address="35.0000773D" binary="true" id="1454">
+            <external_pointer>17.000003BB</external_pointer>
+            <external_pointer>17.000003DC</external_pointer>
+            <content>log.$$$\x00</content>
+        </string>
+        <string address="35.00007745" binary="false" id="1455">
+            <external_pointer>17.0000010C</external_pointer>
+            <content>Your logbook is empty.\x00</content>
+        </string>
+        <string address="35.0000775C" binary="true" id="1456">
+            <external_pointer>17.000000CB</external_pointer>
+            <external_pointer>17.00000137</external_pointer>
+            <content>\x00\x00</content>
+        </string>
+        <string address="35.0000775E" binary="false" id="1457">
+            <external_pointer>17.00000296</external_pointer>
+            <content>Error while printing....\x00</content>
+        </string>
+        <string address="35.0000777D" binary="false" id="1458">
+            <external_pointer>18.00000D76</external_pointer>
+            <content>Paralysis grips your body and\nand you succumb to the dark waters\nof your grave...\x00</content>
+        </string>
+        <string address="35.00007801" binary="false" id="1459">
+            <content>Locked.\x00You are unable to pick the lock...\r\x00</content>
+        </string>
+        <string address="35.000078D4" binary="false" id="1460">
+            <external_pointer>18.00000BB4</external_pointer>
+            <content>Create walls : %d\x00</content>
+        </string>
+        <string address="35.000078E6" binary="false" id="1461">
+            <external_pointer>18.00000BBF</external_pointer>
+            <content>Destroy walls : %d\x00</content>
+        </string>
+        <string address="35.000078F9" binary="false" id="1462">
+            <external_pointer>18.00000BC7</external_pointer>
+            <content>Create floors : %d\x00</content>
+        </string>
+        <string address="35.0000790C" binary="false" id="1463">
+            <external_pointer>18.00000BD2</external_pointer>
+            <content>Destroy floors : %d\x00</content>
+        </string>
+        <string address="35.00007920" binary="true" id="1464">
+            <external_pointer>18.00000C51</external_pointer>
+            <content>%tem\x00</content>
+        </string>
+        <string address="35.00007925" binary="true" id="1465">
+            <external_pointer>18.00000C58</external_pointer>
+            <content>%nt\x00</content>
+        </string>
+        <string address="35.00007929" binary="false" id="1466">
+            <external_pointer>18.00000CE1</external_pointer>
+            <content>Mages Guild\x00\x00</content>
+        </string>
+        <string address="35.00007936" binary="false" id="1467">
+            <external_pointer>19.00000057</external_pointer>
+            <content>You are so fatigued that you\rsimply drop where you stand.\r\nOne hour later....\r\x00</content>
+        </string>
+        <string address="35.00007985" binary="false" id="1468">
+            <external_pointer>19.00000089</external_pointer>
+            <content>Fatigue overcomes you and\rsends you to a watery grave....\r\x00</content>
+        </string>
+        <string address="35.000079C0" binary="false" id="1469">
+            <external_pointer>19.00000036</external_pointer>
+            <content>You drop from exhaustion and\rquickly fall prey to monsters....\r\x00</content>
+        </string>
+        <string address="35.00007A50" binary="false" id="1470">
+            <external_pointer>5.00000D80</external_pointer>
+            <external_pointer>20.0000045E</external_pointer>
+            <content>Failure...\x00</content>
+        </string>
+        <string address="35.00007A5B" binary="false" id="1471">
+            <external_pointer>20.00000471</external_pointer>
+            <content>Success...\x00</content>
+        </string>
+        <string address="35.00007A66" binary="false" id="1472">
+            <external_pointer>20.00000484</external_pointer>
+            <content>Critical strike...\x00</content>
+        </string>
+        <string address="35.00007A79" binary="false" id="1473">
+            <content>Open locked chest ?\x00</content>
+        </string>
+        <string address="35.00007A8D" binary="false" id="1474">
+            <content>Lock won't budge...\x00</content>
+        </string>
+        <string address="35.00007AA1" binary="false" id="1475">
+            <external_pointer>20.000007DD</external_pointer>
+            <content>The chest opens...\x00</content>
+        </string>
+        <string address="35.00007B29" binary="false" id="1476">
+            <external_pointer>20.00000934</external_pointer>
+            <content>You see a worthless key...\x00</content>
+        </string>
+        <string address="35.00007BCD" binary="false" id="1477">
+            <external_pointer>21.00000725</external_pointer>
+            <content>Silence spell prevents spell casting.\x00</content>
+        </string>
+        <string address="35.00007BF3" binary="false" id="1478">
+            <external_pointer>21.00000796</external_pointer>
+            <content>Not enough spell points...\x00</content>
+        </string>
+        <string address="35.00007D8B" binary="false" id="1479">
+            <external_pointer>18.0000002A</external_pointer>
+            <external_pointer>21.000001FD</external_pointer>
+            <content>Pick spell target...\x00</content>
+        </string>
+        <string address="35.00007DA0" binary="false" id="1480">
+            <external_pointer>21.0000022A</external_pointer>
+            <content>Fire spell at target...\x00</content>
+        </string>
+        <string address="35.00007DB8" binary="false" id="1481">
+            <external_pointer>21.00000249</external_pointer>
+            <content>Release spell in your area...\x00</content>
+        </string>
+        <string address="35.00007F24" binary="false" id="1482">
+            <external_pointer>1.0000D40F</external_pointer>
+            <external_pointer>1.0000D498</external_pointer>
+            <content>I have nothing further to discuss!\x00</content>
+        </string>
+        <string address="35.00007F47" binary="true" id="1483">
+            <external_pointer>1.0000D2FA</external_pointer>
+            <external_pointer>1.0000D41D</external_pointer>
+            <external_pointer>1.0000D55B</external_pointer>
+            <external_pointer>1.0000D6D2</external_pointer>
+            <external_pointer>1.0000DA32</external_pointer>
+            <external_pointer>5.0000110C</external_pointer>
+            <external_pointer>25.000003E3</external_pointer>
+            <content>\x01\x02\x05\x06\x04\x00\x07\x03</content>
+        </string>
+        <string address="35.00007F4F" binary="false" id="1484">
+            <external_pointer>1.0000D30F</external_pointer>
+            <external_pointer>1.0000DA3B</external_pointer>
+            <external_pointer>25.000003F4</external_pointer>
+            <content>Rihad\x00Winterhold\x00Eldenroot\x00Corinth\x00Lillandril\x00Camlorn\x00Stormhold\x00Ebonheart\x00Stonekeep\x00Fortress of Ice\x00Selene's Web\x00Temple of Agamanus\x00Temple of the Mad God\x00Mines of Khuras\x00Vaults of Gemin\x00Black Gate\x00</content>
+        </string>
+        <string address="35.00008014" binary="false" id="1485">
+            <external_pointer>25.000003D3</external_pointer>
+            <content>Fang Lair\x00Labyrinthian\x00Elden Grove\x00Halls of the Colossus\x00Crystal Tower\x00Crypt of Hearts\x00Murkwood\x00Dagoth-Ur\x00</content>
+        </string>
+        <string address="35.0000807E" binary="true" id="1486">
+            <external_pointer>1.0000D34E</external_pointer>
+            <external_pointer>1.0000D363</external_pointer>
+            <external_pointer>1.0000D6CB</external_pointer>
+            <external_pointer>1.0000DA2B</external_pointer>
+            <external_pointer>1.0000DAE3</external_pointer>
+            <external_pointer>1.0000DAFF</external_pointer>
+            <external_pointer>1.0000DB08</external_pointer>
+            <content>\x00\x07\x00\x07\x07\x05\x05\x00</content>
+        </string>
+        <string address="35.00008086" binary="false" id="1487">
+            <external_pointer>1.0000D390</external_pointer>
+            <content>\x00\x00\x00\x00\x00Brotherhood of Seth\x00Conclave of Baal\x00\x00</content>
+        </string>
+        <string address="35.000080DA" binary="false" id="1488">
+            <external_pointer>22.00000263</external_pointer>
+            <content>Your %s is broken.\x00</content>
+        </string>
+        <string address="35.00008142" binary="false" id="1489">
+            <external_pointer>22.00000822</external_pointer>
+            <content>%nc gives up his fight, figuring that perhaps\r%tq %fq will be more merciful than you.\r\x00</content>
+        </string>
+        <string address="35.00008212" binary="false" id="1490">
+            <external_pointer>24.000004EF</external_pointer>
+            <content>Attribute already fortified...\x00</content>
+        </string>
+        <string address="35.000082DC" binary="false" id="1491">
+            <external_pointer>1.0000E553</external_pointer>
+            <content>You are not successful...\x00</content>
+        </string>
+        <string address="35.000082F6" binary="false" id="1492">
+            <external_pointer>1.0000E57C</external_pointer>
+            <content>That's in the city...\x00</content>
+        </string>
+        <string address="35.0000830C" binary="false" id="1493">
+            <external_pointer>1.0000DBD7</external_pointer>
+            <external_pointer>1.0000E56A</external_pointer>
+            <content>I have no idea. Try asking in town.\x00</content>
+        </string>
+        <string address="35.00008330" binary="false" id="1494">
+            <external_pointer>1.0000D930</external_pointer>
+            <content>You see a %s...\x00</content>
+        </string>
+        <string address="35.00008364" binary="false" id="1495">
+            <external_pointer>1.0000E0E7</external_pointer>
+            <content>I don't deal in rumors...\r\x00</content>
+        </string>
+        <string address="35.00008405" binary="false" id="1496">
+            <external_pointer>1.0000E403</external_pointer>
+            <content>I'm not sure. Try asking someone outside.\x00</content>
+        </string>
+        <string address="35.0000842F" binary="false" id="1497">
+            <external_pointer>1.0000DD03</external_pointer>
+            <content>Inn\x00Temple\x00Equipment Store\x00Mages Guild\x00Palace\x00City gates\x00Nearest Inn\x00Nearest Temple\x00Nearest Store\x00</content>
+        </string>
+        <string address="35.00008491" binary="false" id="1498">
+            <external_pointer>1.0000DD0E</external_pointer>
+            <content>Inn\x00Temple\x00Equipment Store\x00Mages Guild\x00Palace\x00Work\x00Nearest Inn\x00Nearest Temple\x00Nearest Dungeon\x00</content>
+        </string>
+        <string address="35.00008519" binary="false" id="1499">
+            <external_pointer>1.0000EF55</external_pointer>
+            <content>\x09031%s\n\x09201%u\n\x09228%s\n\x09235%lu gp\x00</content>
+        </string>
+        <string address="35.00008539" binary="false" id="1500">
+            <external_pointer>1.0000F01C</external_pointer>
+            <content>\x09029%s\n\x09185%s\n\x09235%u\n\x09242%lu gp\x00</content>
+        </string>
+        <string address="35.0000855F" binary="false" id="1501">
+            <external_pointer>0.00004954</external_pointer>
+            <content>Your position is %d, %d.\x00</content>
+        </string>
+        <string address="35.00008672" binary="false" id="1502">
+            <external_pointer>0.0000499A</external_pointer>
+            <content>Normal roll.\x00Severe roll.\x00Cross hatch.\x00</content>
+        </string>
+        <string address="35.000086BD" binary="false" id="1503">
+            <content>Door is locked.\x00</content>
+        </string>
+        <string address="35.000086CD" binary="false" id="1504">
+            <content>Unable to open lock...\x00</content>
+        </string>
+        <string address="35.000086E4" binary="false" id="1505">
+            <external_pointer>0.0000423A</external_pointer>
+            <content>The Emperor has no time.\rYou are turned away at the gate...\r\x00</content>
+        </string>
+        <string address="35.00008721" binary="true" id="1506">
+            <external_pointer>0.00004205</external_pointer>
+            <content>imppal.mif\x00</content>
+        </string>
+        <string address="35.0000872C" binary="false" id="1507">
+            <external_pointer>0.000040C2</external_pointer>
+            <content>The palace is closed for the night.\x00</content>
+        </string>
+        <string address="35.00008750" binary="false" id="1508">
+            <external_pointer>0.00004B35</external_pointer>
+            <content>Artifact Quest now possible.\x00</content>
+        </string>
+        <string address="35.0000876D" binary="false" id="1509">
+            <external_pointer>0.00004871</external_pointer>
+            <content>Pixelation toggled.\x00</content>
+        </string>
+        <string address="35.00008781" binary="false" id="1510">
+            <external_pointer>0.00004822</external_pointer>
+            <content>Game speed FASTER.\x00</content>
+        </string>
+        <string address="35.00008794" binary="false" id="1511">
+            <external_pointer>0.00004850</external_pointer>
+            <content>Game speed SLOWER.\x00</content>
+        </string>
+        <string address="35.0000886A" binary="false" id="1512">
+            <external_pointer>25.00000C85</external_pointer>
+            <content>Uriel Septim\x00</content>
+        </string>
+        <string address="35.00008877" binary="false" id="1513">
+            <external_pointer>25.000003C0</external_pointer>
+            <content>city-state\x00town\x00village\x00village\x00dungeon\x00</content>
+        </string>
+        <string address="35.000088B7" binary="false" id="1514">
+            <external_pointer>25.000001C3</external_pointer>
+            <external_pointer>25.00000239</external_pointer>
+            <content> of \x00</content>
+        </string>
+        <string address="35.00008985" binary="false" id="1515">
+            <external_pointer>1.0000FB15</external_pointer>
+            <content>You successfully stole a %s.\x00</content>
+        </string>
+        <string address="35.000089A2" binary="false" id="1516">
+            <external_pointer>1.0000F429</external_pointer>
+            <content>\x09`Your %s is equipped.\r\x09`Do you still want to sell it?\x00</content>
+        </string>
+        <menu id="1517" ip_address="35.00003E63">
+            <external_pointers item_pointers="1.00002AA5" shortcuts="1.00002AA2" />
+            <shortcuts address="35.00003E60">SR\x00</shortcuts>
+            <items>
+                <mi address="35.00003E69">\x09\xFES\x09\xFDave stats\r\x00</mi>
+                <mi address="35.00003E79">\x09\xFER\x09\xFDeroll stats\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1518" ip_address="35.00003E4C">
+            <external_pointers item_pointers="1.00002561" shortcuts="1.0000255E" />
+            <shortcuts address="35.00003E49">MF\x00</shortcuts>
+            <items>
+                <mi address="35.00003E52">Male\r\x00</mi>
+                <mi address="35.00003E58">Female\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1519" ip_address="35.00003E31">
+            <external_pointers item_pointers="1.000023A9" shortcuts="1.000023A6" />
+            <shortcuts address="35.00003E2E">GS\x00</shortcuts>
+            <items>
+                <mi address="35.00003E37">Generate\r\x00</mi>
+                <mi address="35.00003E41">Select\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1520" ip_address="35.0000480E">
+            <external_pointers item_pointers="1.000040CA" shortcuts="1.000040C7" title="1.000040C4" />
+            <title address="35.000047FA">\x09\xC0 CAMP OPTIONS\r\x00</title>
+            <shortcuts address="35.0000480B">CU\x00</shortcuts>
+            <items>
+                <mi address="35.00004814">\x09\xC0C\x09\xD4amp for a while...\r\x00</mi>
+                <mi address="35.0000482D">\x09\xC0U\x09\xD4ntil fully  healed\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1521" ip_address="35.00004A29">
+            <external_pointers item_pointers="1.00004689" shortcuts="1.00004686" />
+            <shortcuts address="35.00004A26">YN\x00</shortcuts>
+            <items>
+                <mi address="35.00004A2F">Yes\r\x00</mi>
+                <mi address="35.00004A34">No\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1522" ip_address="35.00005811">
+            <external_pointers item_pointers="1.0000642E" shortcuts="1.0000642B" title="1.00006428" />
+            <title address="35.000057FD">\x09\xD4Edit Effects\r\x00</title>
+            <shortcuts address="35.0000580D">AMD\x00</shortcuts>
+            <items>
+                <mi address="35.00005819">\x09\xD6A\x09\xD8dd\r\x00</mi>
+                <mi address="35.00005822">\x09\xD6M\x09\xD8odify\r\x00</mi>
+                <mi address="35.0000582E">\x09\xD6D\x09\xD8elete\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1523" ip_address="35.00006BC7">
+            <external_pointers item_pointers="1.00009AC6" shortcuts="1.00009AC3" />
+            <shortcuts address="35.00006BC4">YN\x00</shortcuts>
+            <items>
+                <mi address="35.00006BCD">\x09\xC0Y\x09\xD4es\r\x00</mi>
+                <mi address="35.00006BD6">\x09\xC0N\x09\xD4o\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1524" ip_address="35.00006CE8">
+            <external_pointers item_pointers="1.0000A2A4" shortcuts="1.0000A2A1" />
+            <shortcuts address="35.00006CE5">YN\x00</shortcuts>
+            <items>
+                <mi address="35.00006CEE">\x09\xC0Y\x09\xD4es\r\x00</mi>
+                <mi address="35.00006CF7">\x09\xC0N\x09\xD4o\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1525" ip_address="35.00006D1B">
+            <external_pointers item_pointers="1.0000A54B" shortcuts="1.0000A548" title="1.0000A545" />
+            <title address="35.00006D04">\x09`MENU  OPTIONS\r\x00</title>
+            <shortcuts address="35.00006D15">BDSLE\x00</shortcuts>
+            <items>
+                <mi address="35.00006D27">\x09\xC0B\x09\xD4uy\r\x00</mi>
+                <mi address="35.00006D30">\x09\xC0D\x09\xD4etect Magic\r\x00</mi>
+                <mi address="35.00006D42">\x09\xC0S\x09\xD4pellmaker\r\x00</mi>
+                <mi address="35.00006D52">\x09\xD4Stea\x09\xC0l\r\x00</mi>
+                <mi address="35.00006D5D">\x09\xC0E\x09\xD4xit\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1526" ip_address="35.00006D73">
+            <external_pointers item_pointers="1.0000A558" shortcuts="1.0000A555" />
+            <shortcuts address="35.00006D7D">BDSE\x00</shortcuts>
+            <items>
+                <mi address="35.00006D82">\x09\xC0B\x09\xD4uy\r\x00</mi>
+                <mi address="35.00006D8B">\x09\xC0D\x09\xD4etect Magic\r\x00</mi>
+                <mi address="35.00006D9D">\x09\xC0S\x09\xD4teal\r\x00</mi>
+                <mi address="35.00006DA8">\x09\xC0E\x09\xD4xit\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1527" ip_address="35.00006E35">
+            <external_pointers item_pointers="1.0000A856" shortcuts="1.0000A853" title="1.0000A83C" />
+            <external_pointers title="1.0000A9D5" />
+            <title address="35.00006E23">\x09`PICK  ITEM\r\x00</title>
+            <shortcuts address="35.00006E31">PMS\x00</shortcuts>
+            <items>
+                <mi address="35.00006E3D">\x09\xC0P\x09\xD4otions\r\x00</mi>
+                <mi address="35.00006E4A">\x09\xC0M\x09\xD4agic items\r\x00</mi>
+                <mi address="35.00006E5B">\x09\xC0S\x09\xD4pells\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1528" ip_address="35.00006E6A">
+            <external_pointers item_pointers="1.0000A842" shortcuts="1.0000A83F" />
+            <shortcuts address="35.00006E67">PS\x00</shortcuts>
+            <items>
+                <mi address="35.00006E70">\x09\xC0P\x09\xD4otions\r\x00</mi>
+                <mi address="35.00006E7D">\x09\xC0S\x09\xD4pells\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1529" ip_address="35.00006F6C">
+            <external_pointers item_pointers="1.0000A869" shortcuts="1.0000A866" />
+            <external_pointers item_pointers="1.0000A9DB" shortcuts="1.0000A9D8" />
+            <shortcuts address="35.00006F69">PM\x00</shortcuts>
+            <items>
+                <mi address="35.00006F72">\x09\xC0P\x09\xD4otion\r\x00</mi>
+                <mi address="35.00006F7E">\x09\xC0M\x09\xD4agic item\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1530" ip_address="35.000070A9">
+            <external_pointers item_pointers="1.0000B754" shortcuts="1.0000B751" title="1.0000B722" />
+            <title address="35.00007092">\x09`MENU  OPTIONS\r\x00</title>
+            <shortcuts address="35.000070A3">BGSRE\x00</shortcuts>
+            <items>
+                <mi address="35.000070B5">\x09\xC0B\x09\xD4uy Drinks\r\x00</mi>
+                <mi address="35.000070C5">\x09\xC0G\x09\xD4et a Room\r\x00</mi>
+                <mi address="35.000070D5">\x09\xC0S\x09\xD4neak into a Room\r\x00</mi>
+                <mi address="35.000070EC">\x09\xC0R\x09\xD4umors\r\x00</mi>
+                <mi address="35.000070F8">\x09\xC0E\x09\xD4xit\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1531" ip_address="35.00007112">
+            <external_pointers item_pointers="1.0000B736" shortcuts="1.0000B733" />
+            <shortcuts address="35.0000710E">BRE\x00</shortcuts>
+            <items>
+                <mi address="35.0000711A">\x09\xC0B\x09\xD4uy Drinks\r\x00</mi>
+                <mi address="35.0000712A">\x09\xC0R\x09\xD4umors\r\x00</mi>
+                <mi address="35.00007136">\x09\xC0E\x09\xD4xit\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1532" ip_address="35.00007143">
+            <external_pointers item_pointers="1.0000BC68" shortcuts="1.0000BC65" />
+            <external_pointers item_pointers="1.0000BF76" shortcuts="1.0000BF73" />
+            <shortcuts address="35.00007140">YN\x00</shortcuts>
+            <items>
+                <mi address="35.00007149">\x09\xC0Y\x09\xD4es\r\x00</mi>
+                <mi address="35.00007152">\x09\xC0N\x09\xD4o\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1533" ip_address="35.000073C0">
+            <external_pointers item_pointers="1.0000C002" shortcuts="1.0000BFFF" title="1.0000BFFC" />
+            <title address="35.000073AA">\x09`MENU  OPTIONS\r\x00</title>
+            <shortcuts address="35.000073BB">BCHE\x00</shortcuts>
+            <items>
+                <mi address="35.000073CA">\x09\xC0B\x09\xD4less\r\x00</mi>
+                <mi address="35.000073D5">\x09\xC0C\x09\xD4ure\r\x00</mi>
+                <mi address="35.000073DF">\x09\xC0H\x09\xD4eal\r\x00</mi>
+                <mi address="35.000073E9">\x09\xC0E\x09\xD4xit\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1534" ip_address="35.00007697">
+            <shortcuts address="35.00007694">YN\x00</shortcuts>
+            <items>
+                <mi address="35.0000769D">\x09\xFCY\x09\xFDes\r\x00</mi>
+                <mi address="35.000076A6">\x09\xFCN\x09\xFDo\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1535" ip_address="35.000080B4">
+            <external_pointers item_pointers="1.0000D609" shortcuts="1.0000D606" />
+            <shortcuts address="35.000080B1">YN\x00</shortcuts>
+            <items>
+                <mi address="35.000080BA">\x09\xFCY\x09\xFDes\r\x00</mi>
+                <mi address="35.000080C3">\x09\xFCN\x09\xFDo\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1536" ip_address="35.00008392">
+            <external_pointers item_pointers="1.0000DC17" shortcuts="1.0000DC14" title="1.0000DC11" />
+            <title address="35.0000837F">\x09`ASK ABOUT ?\r\x00</title>
+            <shortcuts address="35.0000838E">WHR\x00</shortcuts>
+            <items>
+                <mi address="35.0000839C">\x09\xC0W\x09\xD4ho are you?\r\x00</mi>
+                <mi address="35.000083AE">\x09\xD4W\x09\xC0h\x09\xD4ere is...\r\x00</mi>
+                <mi address="35.000083C1">\x09\xC0R\x09\xD4umors\r\x00</mi>
+                <mi address="35.000083CD">\x09\xC0E\x09\xD4xit\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1537" ip_address="35.000083E8">
+            <external_pointers item_pointers="1.0000E000" shortcuts="1.0000DFFD" title="1.0000DFFA" />
+            <external_pointers item_pointers="1.0000E17F" shortcuts="1.0000E17C" title="1.0000E179" />
+            <title address="35.000083D7">\x09`Rumor Type\r\x00</title>
+            <shortcuts address="35.000083E5">GW\x00</shortcuts>
+            <items>
+                <mi address="35.000083EE">\x09\xC0G\x09\xD4eneral\r\x00</mi>
+                <mi address="35.000083FB">\x09\xC0W\x09\xD4ork\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1538" ip_address="35.000088E7">
+            <external_pointers item_pointers="1.0000F262" shortcuts="1.0000F25F" title="1.0000F25C" />
+            <title address="35.000088D0">\x09`MENU  OPTIONS\r\x00</title>
+            <shortcuts address="35.000088E1">BSRTE\x00</shortcuts>
+            <items>
+                <mi address="35.000088F3">\x09\xC0B\x09\xD4uy\r\x00</mi>
+                <mi address="35.000088FC">\x09\xC0S\x09\xD4ell\r\x00</mi>
+                <mi address="35.00008906">\x09\xC0R\x09\xD4epair\r\x00</mi>
+                <mi address="35.00008912">\x09\xD4S\x09\xC0t\x09\xD4eal\r\x00</mi>
+                <mi address="35.0000891F">\x09\xC0E\x09\xD4xit\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1539" ip_address="35.00008944">
+            <external_pointers item_pointers="1.0000F8EB" shortcuts="1.0000F8E8" title="1.0000F8E5" />
+            <title address="35.00008931">\x09`BUY  OPTIONS\r\x00</title>
+            <shortcuts address="35.00008941">WA\x00</shortcuts>
+            <items>
+                <mi address="35.0000894A">\x09\xC0W\x09\xD4eapon\r\x00</mi>
+                <mi address="35.00008956">\x09\xC0A\x09\xD4rmor\r\x00</mi>
+            </items>
+        </menu>
+        <menu id="1540" ip_address="35.000089DC">
+            <external_pointers item_pointers="1.0000F446" shortcuts="1.0000F443" />
+            <shortcuts address="35.000089D9">YN\x00</shortcuts>
+            <items>
+                <mi address="35.000089E2">\x09\xC0Y\x09\xD4es\r\x00</mi>
+                <mi address="35.000089EB">\x09\xC0N\x09\xD4o\r\x00</mi>
+            </items>
+        </menu>
+    </segment>
+    <segment absolute_offset="0004E2B0" id="36" length="0000EDF0" type="data" />
+</exe>
