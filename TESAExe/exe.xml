@@ -1489,7 +1489,6 @@
             <content>Enter the name of the city or press Enter key for a list.\x00</content>
         </string>
         <string address="35.00006961" binary="false" id="1402">
-            <external_pointer>32.00003640</external_pointer>
             <content>You have arrived.\x00</content>
         </string>
         <string address="35.00006973" binary="false" id="1403">
